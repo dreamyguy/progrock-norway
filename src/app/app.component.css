@@ -1,0 +1,15 @@
+.wrapper,
+.content {
+  color: #222;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+  text-align: center;
+}
+.heading-page {
+  font-size: 200%;
+  margin-bottom: 15px;
+}
+.heading-page-intro {
+  margin: 0 0 10px 0;
+}
