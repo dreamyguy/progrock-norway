@@ -17,7 +17,7 @@
     <tr *ngFor="let band of bands" class="band">
       <td class="band-badge">{{band.id}}</td>
       <td class="band-name">{{band.name}}</td>
-      <td class="spotify-artist-follow">
+      <td class="band-spotify-artist-follow">
         <iframe
          [src]="'https://open.spotify.com/follow/1/?uri=spotify:artist:' + band.artistId + '&size=detail&theme=light' | safe"
          width="300"
@@ -26,6 +26,16 @@
          frameborder="0"
          style="border:none; overflow:hidden;"
          allowtransparency="true"></iframe>
+      </td>
+      <td class="band-facebook-page">
+        <iframe *ngIf="band.fbId !== ''"
+          [src]="'https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F' + band.fbId + '%2F&tabs&width=340&height=70&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=193070220882687' | safe"
+          width="340"
+          height="70"
+          scrolling="no"
+          frameborder="0"
+          style="border:none; overflow:hidden;"
+          allowTransparency="true"></iframe>
       </td>
     </tr>
   </table>
