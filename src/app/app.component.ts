@@ -93,7 +93,7 @@ const BANDS: Band[] = [{
 }, {
   id: 0,
   name: "Annot Rhül",
-  artistId: "",
+  artistId: "2KAyxJ1rB0E2VVbQYmSIfb",
   fbId: "annotrhul"
 }, {
   id: 0,
@@ -108,12 +108,12 @@ const BANDS: Band[] = [{
 }, {
   id: 0,
   name: "Bez Taktu",
-  artistId: "",
+  artistId: "0X0KoXOatGXQCXN59lUSTb",
   fbId: "BezTaktu"
 }, {
   id: 0,
   name: "The Brimstone Solar Radiation Band",
-  artistId: "",
+  artistId: "5IXiTe1pqWhapwnHSXozot",
   fbId: "The-Brimstone-Solar-Radiation-Band-6553618902"
 }, {
   id: 0,
@@ -128,7 +128,7 @@ const BANDS: Band[] = [{
 }, {
   id: 0,
   name: "Elephant Plaza",
-  artistId: "",
+  artistId: "7yUyMUhLmYaqbKY07j5BY2",
   fbId: "elephantplaza"
 }, {
   id: 0,
@@ -148,12 +148,12 @@ const BANDS: Band[] = [{
 }, {
   id: 0,
   name: "Glutton",
-  artistId: "",
+  artistId: "2SPyFYBRgRoTnOXilDeSXj",
   fbId: "gluttonmusic"
 }, {
   id: 0,
   name: "Holon",
-  artistId: "",
+  artistId: "5EGRA2ywLUVNgIyhGmRu2Q",
   fbId: "holon.official"
 }, {
   id: 0,
@@ -178,7 +178,7 @@ const BANDS: Band[] = [{
 }, {
   id: 0,
   name: "Kambodsja",
-  artistId: "",
+  artistId: "1Vm8N0eT01j12THcY5tf8E",
   fbId: "kambodsja"
 }, {
   id: 0,
@@ -198,7 +198,7 @@ const BANDS: Band[] = [{
 }, {
   id: 0,
   name: "Last Ember",
-  artistId: "",
+  artistId: "1LrUu1hZUl27WJkDEqi3ES",
   fbId: "LastEmberband"
 }, {
   id: 0,
@@ -208,12 +208,12 @@ const BANDS: Band[] = [{
 }, {
   id: 0,
   name: "Lucifer Was",
-  artistId: "",
+  artistId: "1LrUu1hZUl27WJkDEqi3ES",
   fbId: "Lucifer-Was-357893044376618"
 }, {
   id: 0,
   name: "Matterhorn",
-  artistId: "",
+  artistId: "5c4VNxynfxoOk4i5PPhxUI",
   fbId: "Matterhorn72Music"
 }, {
   id: 0,
@@ -223,12 +223,12 @@ const BANDS: Band[] = [{
 }, {
   id: 0,
   name: "Major Parkinson",
-  artistId: "",
+  artistId: "5baLALm4KxY0I4z4OjumiZ",
   fbId: "majorparkinson"
 }, {
   id: 0,
   name: "Rhys Marsh",
-  artistId: "",
+  artistId: "6sAKiL3oRGFSTjSJH8zqzi",
   fbId: "rhysmarshmusic"
 }, {
   id: 0,
@@ -238,12 +238,12 @@ const BANDS: Band[] = [{
 }, {
   id: 0,
   name: "Nordagust",
-  artistId: "",
+  artistId: "026DSD4ZP6332fMZ3fYiON",
   fbId: "Nordagust-152203358171757"
 }, {
   id: 0,
-  name: "Now’ve Got Members",
-  artistId: "",
+  name: "Now We’ve Got Members",
+  artistId: "2gqsPSVssvy91LHdo070k7",
   fbId: "NowWeveGotMembers"
 }, {
   id: 0,
@@ -252,8 +252,8 @@ const BANDS: Band[] = [{
   fbId: "oakinoslo"
 }, {
   id: 0,
-  name: "The opium cartel",
-  artistId: "",
+  name: "The Opium Cartel",
+  artistId: "5bDDhDrwBbf8iXjJa1E8Fd",
   fbId: "theopiumcartel"
 }, {
   id: 0,
@@ -268,42 +268,42 @@ const BANDS: Band[] = [{
 }, {
   id: 0,
   name: "Permian Incident",
-  artistId: "",
+  artistId: "4Y9tlDA9OEkpv2eP212JiC",
   fbId: "PermianIncident"
 }, {
   id: 0,
   name: "Pixie Ninja",
   artistId: "4vEaHdiNk8sisbw3qlOBw9",
-  fbId: "pixieninjaofficial"
+  fbId: "pixieninjaband"
 }, {
   id: 0,
   name: "Pluto And the Planets",
-  artistId: "",
+  artistId: "4GGwyrsS0vB4iM5hMa6MMw",
   fbId: "PLUTO-AND-THE-PLANETS-19611404996"
 }, {
   id: 0,
-  name: "Procosmian fannyfiddlers",
-  artistId: "",
+  name: "Procosmian Fannyfiddlers",
+  artistId: "45M2IUBxM7WgEi8T8ZuMFy",
   fbId: "Procosmian-Fannyfiddlers-290427701038809"
 }, {
   id: 0,
   name: "Professor Tip Top",
-  artistId: "",
+  artistId: "4Xp9pfjXi7jFlGmcoeUYJz",
   fbId: "Professor-Tip-Top-282706708456217"
 }, {
   id: 0,
   name: "Progatom",
-  artistId: "",
+  artistId: "19yLPM8u9mkl3fP8Fyo6wC",
   fbId: "progatom"
 }, {
   id: 0,
   name: "Rendezvous Point",
-  artistId: "",
+  artistId: "0AhnRzNnHI2Yhx9d00H5Cp",
   fbId: "RendezvousPointOfficial"
 }, {
   id: 0,
   name: "Bjørn Riis Band",
-  artistId: "",
+  artistId: "0itkMtdd5OVeG2FFDE7J6z",
   fbId: "BjornRiisGuitarPage"
 }, {
   id: 0,
@@ -323,7 +323,7 @@ const BANDS: Band[] = [{
 }, {
   id: 0,
   name: "Shamblemaths",
-  artistId: "",
+  artistId: "3wnsekzvTEDVdgtWFmiPiZ",
   fbId: "shamblemaths"
 }, {
   id: 0,
@@ -333,12 +333,12 @@ const BANDS: Band[] = [{
 }, {
   id: 0,
   name: "Soup",
-  artistId: "",
+  artistId: "3yb7jKqLaO7FI7MzQLVysm",
   fbId: "soupsound"
 }, {
   id: 0,
   name: "Suburban Savages",
-  artistId: "",
+  artistId: "3OSklNkdsa2o0BFFb8Raej",
   fbId: "SuburbanSavages"
 }, {
   id: 0,
@@ -353,17 +353,17 @@ const BANDS: Band[] = [{
 }, {
   id: 0,
   name: "Tenderton",
-  artistId: "",
+  artistId: "4pX9ElBqHulcUh35oAuBOc",
   fbId: "tendertonband"
 }, {
   id: 0,
   name: "Terramater",
-  artistId: "",
+  artistId: "6CMBH89qR6KmTfwwRRFlBJ",
   fbId: "Terramater-203111543040208"
 }, {
   id: 0,
   name: "Thule",
-  artistId: "",
+  artistId: "7rSWPijuc6fv6lGAno5trd",
   fbId: "Thule-139490042768792"
 }, {
   id: 0,
@@ -373,7 +373,7 @@ const BANDS: Band[] = [{
 }, {
   id: 0,
   name: "Trojka",
-  artistId: "",
+  artistId: "2EKOcTjcnzeH0Rd3PPoH4m",
   fbId: "TrojkaBergen"
 }, {
   id: 0,
@@ -383,7 +383,7 @@ const BANDS: Band[] = [{
 }, {
   id: 0,
   name: "Umpfel",
-  artistId: "",
+  artistId: "0aUEDr54nJBBanpzDTMYfd",
   fbId: "umpfel"
 }, {
   id: 0,
@@ -429,12 +429,12 @@ const BANDS: Band[] = [{
   id: 0,
   name: "Hedvig Mollestad Trio",
   artistId: "33Ynrn4NZsANMBJsFFqB7Y",
-  fbId: ""
+  fbId: "HedvigMollestadTrio"
 }, {
   id: 0,
   name: "Junipher Greene",
   artistId: "66XeEqwvu77N79QtyvBqO3",
-  fbId: ""
+  fbId: "juniphergreenejubilee"
 }, {
   id: 0,
   name: "Motorpsycho",
@@ -459,7 +459,7 @@ const BANDS: Band[] = [{
   id: 0,
   name: "Synkoke",
   artistId: "02MC05E7L2Xl3cVUnTPd2d",
-  fbId: ""
+  fbId: "synkoke"
 }];
 
 @Component({
