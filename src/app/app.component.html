@@ -13,13 +13,14 @@
       <td>ID</td>
       <td>Name</td>
       <td>Spotify Follow</td>
+      <td>Facebook Like</td>
     </tr>
     <tr *ngFor="let band of bands" class="band">
       <td class="band-badge">{{band.id}}</td>
       <td class="band-name">{{band.name}}</td>
       <td class="band-spotify-artist-follow">
-        <iframe
-         [src]="'https://open.spotify.com/follow/1/?uri=spotify:artist:' + band.artistId + '&size=detail&theme=light' | safe"
+        <iframe *ngIf="band.artistId !== ''"
+         [src]="'https://open.spotify.com/follow/1/?uri=spotify:artist:' + band.artistId + '&size=detail&theme=light&show-count=0' | safe"
          width="300"
          height="56"
          scrolling="no"
