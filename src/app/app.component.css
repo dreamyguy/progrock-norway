@@ -13,3 +13,17 @@
 .heading-page-intro {
   margin: 0 0 10px 0;
 }
+table {
+  border-collapse: collapse;
+}
+td {
+  padding: 4px;
+}
+td.band-spotify-artist-follow,
+td.band-facebook-page {
+  padding: 0;
+  line-height: 0;
+}
+.centered {
+  text-align: center;
+}

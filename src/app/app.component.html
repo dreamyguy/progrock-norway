@@ -12,13 +12,18 @@
     <tr>
       <td>ID</td>
       <td>Name</td>
+      <td>On Playlist</td>
       <td>Spotify Follow</td>
       <td>Facebook Like</td>
+      <td>Active</td>
     </tr>
     <tr *ngFor="let band of bands" class="band">
       <td class="band-badge">{{band.id}}</td>
       <td class="band-name">{{band.name}}</td>
-      <td class="band-spotify-artist-follow">
+      <td *ngIf="band.onPlaylist === true; then bandIsOnPlaylist; else bandIsNotOnPlaylist">...</td>
+      <ng-template #bandIsOnPlaylist><td class="band-on-playlist centered">Yes</td></ng-template>
+      <ng-template #bandIsNotOnPlaylist><td class="band-on-playlist centered">No</td></ng-template>
+      <td class="band-spotify-artist-follow centered">
         <iframe *ngIf="band.artistId !== ''"
          [src]="'https://open.spotify.com/follow/1/?uri=spotify:artist:' + band.artistId + '&size=detail&theme=light&show-count=0' | safe"
          width="300"
@@ -38,6 +43,9 @@
           style="border:none; overflow:hidden;"
           allowTransparency="true"></iframe>
       </td>
+      <td *ngIf="band.status === true; then bandIsActive; else bandIsInactive">...</td>
+      <ng-template #bandIsActive><td class="band-status centered">Yes</td></ng-template>
+      <ng-template #bandIsInactive><td class="band-status centered">No</td></ng-template>
     </tr>
   </table>
 </div>
