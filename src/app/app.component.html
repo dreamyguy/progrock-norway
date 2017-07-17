@@ -7,26 +7,31 @@
   </p>
 </div>
 <div class="content">
+  <p>In mid-2017 I took a deep dive into Norwegian Progressive Rock. I gathered a lot of information about artists from Norway, not only by doing the usual "googling" but also by being an active user in Norwegian forums dedicated to Progressive Rock. It was there I got the most relevant news about upcoming bands and their new releases.</p>
+  <p>Progressive Rock is a thriving genre in Norway. I was very surprised by the number of active bands and the quality of their material.</p>
   <h2>The Bands</h2>
   <table class="bands">
     <tr>
-      <td>ID</td>
+      <td class="centered">ID</td>
       <td>Name</td>
-      <td>On Playlist</td>
+      <td class="centered">On Playlist</td>
+      <td class="centered">Active</td>
       <td>Spotify Follow</td>
       <td>Facebook Like</td>
-      <td>Active</td>
     </tr>
     <tr *ngFor="let band of bands" class="band">
       <td class="band-badge">{{band.id}}</td>
       <td class="band-name">{{band.name}}</td>
       <td *ngIf="band.onPlaylist === true; then bandIsOnPlaylist; else bandIsNotOnPlaylist">...</td>
-      <ng-template #bandIsOnPlaylist><td class="band-on-playlist centered">Yes</td></ng-template>
-      <ng-template #bandIsNotOnPlaylist><td class="band-on-playlist centered">No</td></ng-template>
+      <ng-template #bandIsOnPlaylist><td class="band-on-playlist yes centered">&#x2714;</td></ng-template>
+      <ng-template #bandIsNotOnPlaylist><td class="band-on-playlist no centered">&#x2718;</td></ng-template>
+      <td *ngIf="band.status === true; then bandIsActive; else bandIsInactive">...</td>
+      <ng-template #bandIsActive><td class="band-status yes centered">&#x2714;</td></ng-template>
+      <ng-template #bandIsInactive><td class="band-status no centered">&#x2718;</td></ng-template>
       <td class="band-spotify-artist-follow centered">
         <iframe *ngIf="band.artistId !== ''"
-         [src]="'https://open.spotify.com/follow/1/?uri=spotify:artist:' + band.artistId + '&size=detail&theme=light&show-count=0' | safe"
-         width="300"
+         [src]="'https://open.spotify.com/follow/1/?uri=spotify:artist:' + band.artistId + '&size=detail&theme=dark&show-count=0' | safe"
+         width="100%"
          height="56"
          scrolling="no"
          frameborder="0"
@@ -34,18 +39,17 @@
          allowtransparency="true"></iframe>
       </td>
       <td class="band-facebook-page">
-        <iframe *ngIf="band.fbId !== ''"
-          [src]="'https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F' + band.fbId + '%2F&tabs&width=340&height=70&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=193070220882687' | safe"
-          width="340"
-          height="70"
-          scrolling="no"
-          frameborder="0"
-          style="border:none; overflow:hidden;"
-          allowTransparency="true"></iframe>
+        <div class="un-border">
+          <iframe *ngIf="band.fbId !== ''"
+            [src]="'https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F' + band.fbId + '%2F&tabs&width=340&height=70&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=193070220882687' | safe"
+            width="100%"
+            height="70"
+            scrolling="no"
+            frameborder="0"
+            style="border:none; overflow:hidden;"
+            allowTransparency="true"></iframe>
+        </div>
       </td>
-      <td *ngIf="band.status === true; then bandIsActive; else bandIsInactive">...</td>
-      <ng-template #bandIsActive><td class="band-status centered">Yes</td></ng-template>
-      <ng-template #bandIsInactive><td class="band-status centered">No</td></ng-template>
     </tr>
   </table>
 </div>

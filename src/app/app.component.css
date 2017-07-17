@@ -1,6 +1,5 @@
 .wrapper,
 .content {
-  color: #222;
   font-family: Arial, Helvetica, sans-serif;
 }
 .wrapper {
@@ -14,16 +13,35 @@
   margin: 0 0 10px 0;
 }
 table {
+  width: 100%;
   border-collapse: collapse;
+}
+tr:nth-child(odd) {
+  background-color: #1a1a1a;
 }
 td {
   padding: 4px;
 }
 td.band-spotify-artist-follow,
 td.band-facebook-page {
-  padding: 0;
   line-height: 0;
+}
+td.band-facebook-page {
+  padding: 0;
+}
+.band-facebook-page {
+  overflow: hidden;
+}
+.band-facebook-page .un-border {
+  margin: -1px 0 0 -1px;
+  max-width: 338px;
 }
 .centered {
   text-align: center;
+}
+.yes {
+  color: green;
+}
+.no {
+  color: #af0000;
 }

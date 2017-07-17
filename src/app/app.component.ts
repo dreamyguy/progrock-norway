@@ -107,6 +107,97 @@ const BANDS: Band[] = [{
   onPlaylist: true
 }, {
   id: 0,
+  name: "White Willow",
+  artistId: "62f9LejTohfxGWhMP00ZrS",
+  fbId: "whitewillowband",
+  status: true,
+  onPlaylist: true
+}, {
+  id: 0,
+  name: "The Windmill",
+  artistId: "5iFzNxkNt66KeiLWdE7H05",
+  fbId: "The-Windmill-142175499160527",
+  status: true,
+  onPlaylist: true
+}, {
+  id: 0,
+  name: "Oriental Sunshine",
+  artistId: "5YD1psyl46YI0MjK61g9Xg",
+  fbId: "",
+  status: true,
+  onPlaylist: true
+}, {
+  id: 0,
+  name: "1099",
+  artistId: "12zVnfDLMYNY4LlE3rBYrM",
+  fbId: "",
+  status: true,
+  onPlaylist: true
+}, {
+  id: 0,
+  name: "DejaVu",
+  artistId: "1xLZMr0J6UZYw5wI20hNT8",
+  fbId: "",
+  status: true,
+  onPlaylist: true
+}, {
+  id: 0,
+  name: "Farmers Market",
+  artistId: "5NVnpmSzeucVtzvugmlYqT",
+  fbId: "",
+  status: true,
+  onPlaylist: true
+}, {
+  id: 0,
+  name: "Hedvig Mollestad Trio",
+  artistId: "33Ynrn4NZsANMBJsFFqB7Y",
+  fbId: "HedvigMollestadTrio",
+  status: true,
+  onPlaylist: true
+}, {
+  id: 0,
+  name: "Junipher Greene",
+  artistId: "66XeEqwvu77N79QtyvBqO3",
+  fbId: "juniphergreenejubilee",
+  status: false,
+  onPlaylist: true
+}, {
+  id: 0,
+  name: "Motorpsycho",
+  artistId: "2bNIAjyL3hFCuQBQqhPN4T",
+  fbId: "",
+  status: true,
+  onPlaylist: true
+}, {
+  id: 0,
+  name: "Popol Ace",
+  artistId: "56X1tHiY56H9hjdHRxel2u",
+  fbId: "",
+  status: false,
+  onPlaylist: true
+}, {
+  id: 0,
+  name: "Popol Vuh",
+  artistId: "5zeiqAaIiDrjiDch33A2lT",
+  fbId: "",
+  status: false,
+  onPlaylist: true
+}, {
+  id: 0,
+  name: "Prudence",
+  artistId: "46Yft7aKaVVOyuSvu2Fyka",
+  fbId: "",
+  status: false,
+  onPlaylist: true
+}, {
+  id: 0,
+  name: "Synkoke",
+  artistId: "02MC05E7L2Xl3cVUnTPd2d",
+  fbId: "synkoke",
+  status: true,
+  onPlaylist: true
+}, {
+  id: 0,
   name: "Actionfredag",
   artistId: "4guh2PzBCv6hCLsb1QXkox",
   fbId: "actionfredag",
@@ -553,97 +644,6 @@ const BANDS: Band[] = [{
   fbId: "whenmary",
   status: true,
   onPlaylist: false
-}, {
-  id: 0,
-  name: "White Willow",
-  artistId: "62f9LejTohfxGWhMP00ZrS",
-  fbId: "whitewillowband",
-  status: true,
-  onPlaylist: true
-}, {
-  id: 0,
-  name: "The Windmill",
-  artistId: "5iFzNxkNt66KeiLWdE7H05",
-  fbId: "The-Windmill-142175499160527",
-  status: true,
-  onPlaylist: true
-}, {
-  id: 0,
-  name: "Oriental Sunshine",
-  artistId: "5YD1psyl46YI0MjK61g9Xg",
-  fbId: "",
-  status: true,
-  onPlaylist: true
-}, {
-  id: 0,
-  name: "1099",
-  artistId: "12zVnfDLMYNY4LlE3rBYrM",
-  fbId: "",
-  status: true,
-  onPlaylist: true
-}, {
-  id: 0,
-  name: "DejaVu",
-  artistId: "1xLZMr0J6UZYw5wI20hNT8",
-  fbId: "",
-  status: true,
-  onPlaylist: true
-}, {
-  id: 0,
-  name: "Farmers Market",
-  artistId: "5NVnpmSzeucVtzvugmlYqT",
-  fbId: "",
-  status: true,
-  onPlaylist: true
-}, {
-  id: 0,
-  name: "Hedvig Mollestad Trio",
-  artistId: "33Ynrn4NZsANMBJsFFqB7Y",
-  fbId: "HedvigMollestadTrio",
-  status: true,
-  onPlaylist: true
-}, {
-  id: 0,
-  name: "Junipher Greene",
-  artistId: "66XeEqwvu77N79QtyvBqO3",
-  fbId: "juniphergreenejubilee",
-  status: false,
-  onPlaylist: true
-}, {
-  id: 0,
-  name: "Motorpsycho",
-  artistId: "2bNIAjyL3hFCuQBQqhPN4T",
-  fbId: "",
-  status: true,
-  onPlaylist: true
-}, {
-  id: 0,
-  name: "Popol Ace",
-  artistId: "56X1tHiY56H9hjdHRxel2u",
-  fbId: "",
-  status: false,
-  onPlaylist: true
-}, {
-  id: 0,
-  name: "Popol Vuh",
-  artistId: "5zeiqAaIiDrjiDch33A2lT",
-  fbId: "",
-  status: false,
-  onPlaylist: true
-}, {
-  id: 0,
-  name: "Prudence",
-  artistId: "46Yft7aKaVVOyuSvu2Fyka",
-  fbId: "",
-  status: false,
-  onPlaylist: true
-}, {
-  id: 0,
-  name: "Synkoke",
-  artistId: "02MC05E7L2Xl3cVUnTPd2d",
-  fbId: "synkoke",
-  status: true,
-  onPlaylist: true
 }];
 
 @Component({
