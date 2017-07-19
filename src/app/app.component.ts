@@ -212,13 +212,6 @@ const BANDS: Band[] = [{
   onPlaylist: true
 }, {
   id: 0,
-  name: "Alwanzatar",
-  artistId: "",
-  fbId: "alwanzatar",
-  status: true,
-  onPlaylist: false
-}, {
-  id: 0,
   name: "Annot Rhül",
   artistId: "2KAyxJ1rB0E2VVbQYmSIfb",
   fbId: "annotrhul",
@@ -251,14 +244,7 @@ const BANDS: Band[] = [{
   artistId: "5IXiTe1pqWhapwnHSXozot",
   fbId: "The-Brimstone-Solar-Radiation-Band-6553618902",
   status: true,
-  onPlaylist: false
-}, {
-  id: 0,
-  name: "Andre Drage Group",
-  artistId: "",
-  fbId: "andredragegroup",
-  status: true,
-  onPlaylist: false
+  onPlaylist: true
 }, {
   id: 0,
   name: "D'accord",
@@ -272,7 +258,7 @@ const BANDS: Band[] = [{
   artistId: "7yUyMUhLmYaqbKY07j5BY2",
   fbId: "elephantplaza",
   status: true,
-  onPlaylist: false
+  onPlaylist: true
 }, {
   id: 0,
   name: "Fatal fusion",
@@ -280,13 +266,6 @@ const BANDS: Band[] = [{
   fbId: "Fatal-Fusion-49222763785",
   status: true,
   onPlaylist: true
-}, {
-  id: 0,
-  name: "Fraction distraction",
-  artistId: "",
-  fbId: "fractiondistraction",
-  status: true,
-  onPlaylist: false
 }, {
   id: 0,
   name: "Gazpacho",
@@ -300,14 +279,14 @@ const BANDS: Band[] = [{
   artistId: "2SPyFYBRgRoTnOXilDeSXj",
   fbId: "gluttonmusic",
   status: true,
-  onPlaylist: false
+  onPlaylist: true
 }, {
   id: 0,
   name: "Holon",
   artistId: "5EGRA2ywLUVNgIyhGmRu2Q",
   fbId: "holon.official",
   status: true,
-  onPlaylist: false
+  onPlaylist: true
 }, {
   id: 0,
   name: "Infringement",
@@ -317,13 +296,6 @@ const BANDS: Band[] = [{
   onPlaylist: true
 }, {
   id: 0,
-  name: "Ingelrii",
-  artistId: "",
-  fbId: "ingelrii",
-  status: true,
-  onPlaylist: false
-}, {
-  id: 0,
   name: "Jono el grande",
   artistId: "5anYQcPEvvSc4zFfO2ZoOC",
   fbId: "",
@@ -331,18 +303,11 @@ const BANDS: Band[] = [{
   onPlaylist: true
 }, {
   id: 0,
-  name: "Jordsjø",
-  artistId: "",
-  fbId: "jordsjoe",
-  status: true,
-  onPlaylist: false
-}, {
-  id: 0,
   name: "Kambodsja",
   artistId: "1Vm8N0eT01j12THcY5tf8E",
   fbId: "kambodsja",
   status: true,
-  onPlaylist: false
+  onPlaylist: true
 }, {
   id: 0,
   name: "Kaukasus",
@@ -370,7 +335,7 @@ const BANDS: Band[] = [{
   artistId: "1LrUu1hZUl27WJkDEqi3ES",
   fbId: "LastEmberband",
   status: true,
-  onPlaylist: false
+  onPlaylist: true
 }, {
   id: 0,
   name: "Leprous",
@@ -384,14 +349,14 @@ const BANDS: Band[] = [{
   artistId: "1LrUu1hZUl27WJkDEqi3ES",
   fbId: "Lucifer-Was-357893044376618",
   status: true,
-  onPlaylist: false
+  onPlaylist: true
 }, {
   id: 0,
   name: "Matterhorn",
   artistId: "5c4VNxynfxoOk4i5PPhxUI",
   fbId: "Matterhorn72Music",
   status: true,
-  onPlaylist: false
+  onPlaylist: true
 }, {
   id: 0,
   name: "Magic pie",
@@ -405,14 +370,14 @@ const BANDS: Band[] = [{
   artistId: "5baLALm4KxY0I4z4OjumiZ",
   fbId: "majorparkinson",
   status: true,
-  onPlaylist: false
+  onPlaylist: true
 }, {
   id: 0,
   name: "Rhys Marsh",
   artistId: "6sAKiL3oRGFSTjSJH8zqzi",
   fbId: "rhysmarshmusic",
   status: true,
-  onPlaylist: false
+  onPlaylist: true
 }, {
   id: 0,
   name: "Needlepoint",
@@ -426,14 +391,14 @@ const BANDS: Band[] = [{
   artistId: "026DSD4ZP6332fMZ3fYiON",
   fbId: "Nordagust-152203358171757",
   status: true,
-  onPlaylist: false
+  onPlaylist: true
 }, {
   id: 0,
   name: "Now We’ve Got Members",
   artistId: "2gqsPSVssvy91LHdo070k7",
   fbId: "NowWeveGotMembers",
   status: true,
-  onPlaylist: false
+  onPlaylist: true
 }, {
   id: 0,
   name: "Oak",
@@ -447,7 +412,7 @@ const BANDS: Band[] = [{
   artistId: "5bDDhDrwBbf8iXjJa1E8Fd",
   fbId: "theopiumcartel",
   status: true,
-  onPlaylist: false
+  onPlaylist: true
 }, {
   id: 0,
   name: "Ossicles",
@@ -464,13 +429,6 @@ const BANDS: Band[] = [{
   onPlaylist: true
 }, {
   id: 0,
-  name: "Permian Incident",
-  artistId: "4Y9tlDA9OEkpv2eP212JiC",
-  fbId: "PermianIncident",
-  status: true,
-  onPlaylist: false
-}, {
-  id: 0,
   name: "Pixie Ninja",
   artistId: "4vEaHdiNk8sisbw3qlOBw9",
   fbId: "pixieninjaband",
@@ -482,42 +440,42 @@ const BANDS: Band[] = [{
   artistId: "4GGwyrsS0vB4iM5hMa6MMw",
   fbId: "PLUTO-AND-THE-PLANETS-19611404996",
   status: true,
-  onPlaylist: false
+  onPlaylist: true
 }, {
   id: 0,
   name: "Procosmian Fannyfiddlers",
   artistId: "45M2IUBxM7WgEi8T8ZuMFy",
   fbId: "Procosmian-Fannyfiddlers-290427701038809",
   status: true,
-  onPlaylist: false
+  onPlaylist: true
 }, {
   id: 0,
   name: "Professor Tip Top",
   artistId: "4Xp9pfjXi7jFlGmcoeUYJz",
   fbId: "Professor-Tip-Top-282706708456217",
   status: true,
-  onPlaylist: false
+  onPlaylist: true
 }, {
   id: 0,
   name: "Progatom",
   artistId: "19yLPM8u9mkl3fP8Fyo6wC",
   fbId: "progatom",
   status: true,
-  onPlaylist: false
+  onPlaylist: true
 }, {
   id: 0,
   name: "Rendezvous Point",
   artistId: "0AhnRzNnHI2Yhx9d00H5Cp",
   fbId: "RendezvousPointOfficial",
   status: true,
-  onPlaylist: false
+  onPlaylist: true
 }, {
   id: 0,
   name: "Bjørn Riis Band",
   artistId: "0itkMtdd5OVeG2FFDE7J6z",
   fbId: "BjornRiisGuitarPage",
   status: true,
-  onPlaylist: false
+  onPlaylist: true
 }, {
   id: 0,
   name: "Seid",
@@ -545,7 +503,7 @@ const BANDS: Band[] = [{
   artistId: "3wnsekzvTEDVdgtWFmiPiZ",
   fbId: "shamblemaths",
   status: true,
-  onPlaylist: false
+  onPlaylist: true
 }, {
   id: 0,
   name: "Det Skandaløse Orkester",
@@ -559,21 +517,14 @@ const BANDS: Band[] = [{
   artistId: "3yb7jKqLaO7FI7MzQLVysm",
   fbId: "soupsound",
   status: true,
-  onPlaylist: false
+  onPlaylist: true
 }, {
   id: 0,
   name: "Suburban Savages",
   artistId: "3OSklNkdsa2o0BFFb8Raej",
   fbId: "SuburbanSavages",
   status: true,
-  onPlaylist: false
-}, {
-  id: 0,
-  name: "Swifan Eolh",
-  artistId: "",
-  fbId: "mudrasiddhi",
-  status: true,
-  onPlaylist: false
+  onPlaylist: true
 }, {
   id: 0,
   name: "Tangle Edge",
@@ -587,35 +538,28 @@ const BANDS: Band[] = [{
   artistId: "4pX9ElBqHulcUh35oAuBOc",
   fbId: "tendertonband",
   status: true,
-  onPlaylist: false
+  onPlaylist: true
 }, {
   id: 0,
   name: "Terramater",
   artistId: "6CMBH89qR6KmTfwwRRFlBJ",
   fbId: "Terramater-203111543040208",
   status: true,
-  onPlaylist: false
+  onPlaylist: true
 }, {
   id: 0,
   name: "Thule",
   artistId: "7rSWPijuc6fv6lGAno5trd",
   fbId: "Thule-139490042768792",
   status: true,
-  onPlaylist: false
-}, {
-  id: 0,
-  name: "The Chronicles of Father Robin",
-  artistId: "",
-  fbId: "The-Chronicles-of-Father-Robin-109306549137345",
-  status: true,
-  onPlaylist: false
+  onPlaylist: true
 }, {
   id: 0,
   name: "Trojka",
   artistId: "2EKOcTjcnzeH0Rd3PPoH4m",
   fbId: "TrojkaBergen",
   status: true,
-  onPlaylist: false
+  onPlaylist: true
 }, {
   id: 0,
   name: "Tusmørke",
@@ -629,7 +573,7 @@ const BANDS: Band[] = [{
   artistId: "0aUEDr54nJBBanpzDTMYfd",
   fbId: "umpfel",
   status: true,
-  onPlaylist: false
+  onPlaylist: true
 }, {
   id: 0,
   name: "Weserbergland",
@@ -637,6 +581,55 @@ const BANDS: Band[] = [{
   fbId: "weserberglandband",
   status: true,
   onPlaylist: true
+}, {
+  id: 0,
+  name: "Alwanzatar",
+  artistId: "",
+  fbId: "alwanzatar",
+  status: true,
+  onPlaylist: false
+}, {
+  id: 0,
+  name: "Andre Drage Group",
+  artistId: "",
+  fbId: "andredragegroup",
+  status: true,
+  onPlaylist: false
+}, {
+  id: 0,
+  name: "Fraction distraction",
+  artistId: "",
+  fbId: "fractiondistraction",
+  status: true,
+  onPlaylist: false
+}, {
+  id: 0,
+  name: "Ingelrii",
+  artistId: "",
+  fbId: "ingelrii",
+  status: true,
+  onPlaylist: false
+}, {
+  id: 0,
+  name: "Jordsjø",
+  artistId: "",
+  fbId: "jordsjoe",
+  status: true,
+  onPlaylist: false
+}, {
+  id: 0,
+  name: "Swifan Eolh",
+  artistId: "",
+  fbId: "mudrasiddhi",
+  status: true,
+  onPlaylist: false
+}, {
+  id: 0,
+  name: "The Chronicles of Father Robin",
+  artistId: "",
+  fbId: "The-Chronicles-of-Father-Robin-109306549137345",
+  status: true,
+  onPlaylist: false
 }, {
   id: 0,
   name: "When Mary",

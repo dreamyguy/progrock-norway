@@ -1,5 +1,5 @@
 <div class="wrapper">
-  <h1 class="heading-page">
+  <h1 class="heading heading-1 heading-page">
     {{title}}
   </h1>
   <p class="heading-page-intro">
@@ -8,8 +8,13 @@
 </div>
 <div class="content">
   <p>In mid-2017 I took a deep dive into Norwegian Progressive Rock. I gathered a lot of information about artists from Norway, not only by doing the usual "googling" but also by being an active user in Norwegian forums dedicated to Progressive Rock. It was there I got the most relevant news about upcoming bands and their new releases.</p>
+  <p>My research resulted in a Spotify playlist, which is embedded below. It is a collection of well established and emerging Progressive Rock bands from Norway, dating from '70s to today (bear in mind that some bands did not make it to the playlist as they are not on Spotify).</p>
+  <p>This playlist includes several Progressive Rock sub-genres: Ecletic, Symphonic, Crossover, Space, Hard, Jazz Rock, Folk, Fusion, Experimental, Neo, etc - or just plain good Rock.</p>
   <p>Progressive Rock is a thriving genre in Norway. I was very surprised by the number of active bands and the quality of their material.</p>
-  <h2>The Bands</h2>
+  <h3 class="heading heading-3">The criteria for the list</h3>
+  <p>Even though I was extremely open-minded while creating this list / playlist, <em>some of the artists I came accross were omitted</em>. I wanted to keep the playlist relevant, so when I felt that the band was too pop/metal oriented, I double-checked on their likely publicum through their related artists. I then omitted those artists that had little to no reference to other Progressive Rock bands already in the list.</p>
+  <p>That <em>does not necessarily mean</em> that the artist you wish to see in this list will never make it to it. I'm still discovering bands, old and new, so I might not have heard of them yet.</p>
+  <h2 class="heading heading-2">The Bands</h2>
   <table class="bands">
     <tr>
       <td class="centered">ID</td>
@@ -21,7 +26,19 @@
     </tr>
     <tr *ngFor="let band of bands" class="band">
       <td class="band-badge">{{band.id}}</td>
-      <td class="band-name">{{band.name}}</td>
+      <td *ngIf="band.fbId !== ''; then bandIsOnFacebook; else bandIsNotOnFacebook">...</td>
+      <ng-template #bandIsOnFacebook>
+        <td class="band-name on-facebook">
+          <a [href]="'https://www.facebook.com/' + band.fbId | safe" title="{{band.name}}" target="_blank">
+            {{band.name}}
+          </a>
+        </td>
+      </ng-template>
+      <ng-template #bandIsNotOnFacebook>
+        <td class="band-name">
+          {{band.name}}
+        </td>
+      </ng-template>
       <td *ngIf="band.onPlaylist === true; then bandIsOnPlaylist; else bandIsNotOnPlaylist">...</td>
       <ng-template #bandIsOnPlaylist><td class="band-on-playlist yes centered">&#x2714;</td></ng-template>
       <ng-template #bandIsNotOnPlaylist><td class="band-on-playlist no centered">&#x2718;</td></ng-template>
@@ -52,4 +69,6 @@
       </td>
     </tr>
   </table>
+  <h2 class="heading heading-2">The Spotify Playlist</h2>
+  <iframe src="https://open.spotify.com/embed/user/dreamyguy/playlist/612lQsjH7p9JTfgsekowCk" width="100%" height="800" frameborder="0" allowtransparency="true"></iframe>
 </div>
