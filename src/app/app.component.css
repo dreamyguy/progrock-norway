@@ -1,3 +1,9 @@
+/*
+$occre-dark: #615e4b;
+$occre-middle: #8c886d; // default
+$occre-light: #BAB492;
+*/
+
 .wrapper,
 .content {
   font-family: Arial, Helvetica, sans-serif;
@@ -5,11 +11,31 @@
 .wrapper {
   text-align: center;
 }
+em,
+.heading {
+  color: #BAB492;
+}
+.heading {
+  margin-top: 0;
+}
+.heading-1 {
+  font-size: 32px;
+}
+.heading-2 {
+  font-size: 24px;
+}
+.heading-3 {
+  font-size: 18px;
+}
+.heading-4 {
+  font-size: 16px;
+}
 .heading-page {
   font-size: 200%;
   margin-bottom: 15px;
 }
 .heading-page-intro {
+  color: #615e4b;
   margin: 0 0 10px 0;
 }
 .grid {
@@ -103,4 +129,26 @@
 }
 .no {
   color: #af0000;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.menu > :last-child {
+  margin-right: 0;
+}
+.menu button {
+  cursor: pointer;
+  margin-right: 20px;
+  color: #BAB492;
+  background-color: #3d3b33;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 10px 20px;
+  text-shadow: 1px 1px 2px black;
+}
+.menu button:focus {
+  outline: 0;
 }

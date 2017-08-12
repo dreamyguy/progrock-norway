@@ -7,13 +7,38 @@
   </p>
 </div>
 <div class="content">
-  <p>In mid-2017 I took a deep dive into Norwegian Progressive Rock. I gathered a lot of information about artists from Norway, not only by doing the usual "googling" but also by being an active user in Norwegian forums dedicated to Progressive Rock. It was there I got the most relevant news about upcoming bands and their new releases.</p>
-  <p>My research resulted in a Spotify playlist, which is embedded below. It is a collection of well established and emerging Progressive Rock bands from Norway, dating from '70s to today (bear in mind that some bands did not make it to the playlist as they are not on Spotify).</p>
-  <p>This playlist includes several Progressive Rock sub-genres: Ecletic, Symphonic, Crossover, Space, Hard, Jazz Rock, Folk, Fusion, Experimental, Neo, etc - or just plain good Rock.</p>
-  <p>Progressive Rock is a thriving genre in Norway. I was very surprised by the number of active bands and the quality of their material.</p>
-  <h3 class="heading heading-3">The criteria for the list</h3>
-  <p>Even though I was extremely open-minded while creating this list / playlist, <em>some of the artists I came accross were omitted</em>. I wanted to keep the playlist relevant, so when I felt that the band was too pop/metal oriented, I double-checked on their likely publicum through their related artists. I then omitted those artists that had little to no reference to other Progressive Rock bands already in the list.</p>
-  <p>That <em>does not necessarily mean</em> that the artist you wish to see in this list will never make it to it. I'm still discovering bands, old and new, so I might not have heard of them yet.</p>
+  <div class="menu">
+    <button id="btn-why" (click)="toggleShowWhy()">
+      Why?
+    </button>
+    <button id="btn-criteria" (click)="toggleShowCriteria()">
+      Criteria
+    </button>
+    <button id="btn-credits" (click)="toggleShowCredits()">
+      Credits
+    </button>
+  </div>
+  <div id="why" *ngIf="showHideWhy">
+    <h3 class="heading heading-3">Why?</h3>
+    <p>In mid-2017 I took a deep dive into Norwegian Progressive Rock. I gathered a lot of information about artists from Norway, not only by doing the usual "googling" but also by being an active user in Norwegian forums dedicated to Progressive Rock. It was there I got the most relevant news about upcoming bands and their new releases.</p>
+    <p>My research resulted in a <a href="https://open.spotify.com/user/dreamyguy/playlist/612lQsjH7p9JTfgsekowCk" title="Spotify playlist" target="_blank"><em>Spotify playlist</em></a>, which is embedded below. It is a collection of well established and emerging Progressive Rock bands from Norway, dating from '70s to today. Bear in mind that some bands did not make it to the playlist as they are not on Spotify.</p>
+    <p>This playlist includes several Progressive Rock sub-genres: Ecletic, Symphonic, Crossover, Space, Hard, Jazz Rock, Folk, Fusion, Experimental, Neo, etc - or just plain good Rock.</p>
+    <p>Progressive Rock is a thriving genre in Norway. I was very surprised by the number of active bands and the quality of their material. Many artists have new releases, which are usually well received by even the most demanding prog-rockers.</p>
+  </div>
+  <div id="criteria" *ngIf="showHideCriteria">
+    <h3 class="heading heading-3">Order of appearance</h3>
+    <p><em>Evenness</em>: No artist gets a 2nd track listed before every other artist has been listed.</p>
+    <p><em>Fairness</em>: If an artist has a 2nd track, their 3rd isn't listed until every other 2nd track is listed - and so on.</p>
+    <p><em>Synergy</em>: I extracted the number of monthly listeners for each artist. The heavy-weights were evenly distributed to support those with less listeners. Emerging and unknown artists were paired with established ones, to the best of my ability.</p>
+    <h3 class="heading heading-3">Omissions</h3>
+    <p>Even though I was extremely open-minded while creating this list / playlist, <em>some of the artists I came accross were omitted</em>. I wanted to keep the playlist consistent, so when I felt that the band was too pop/metal oriented, I double-checked on their likely publicum through their related artists. I then omitted those artists that had little to no reference to other Progressive Rock bands already in the list.</p>
+    <p>That <em>does not necessarily mean</em> that the artist you wish to see in this list will never make it to it. I'm still discovering bands, old and new, so I might not have heard of them yet.</p>
+  </div>
+  <div id="credits" *ngIf="showHideCredits">
+    <h3 class="heading heading-3">Credits</h3>
+    <p>This page was built by me, <a href="https://www.facebook.com/sidhree/" title="Wallace Sidhrée" target="_blank">Wallace Sidhrée</a>. It was a natural follow up to the playlist, which was the inspiration to the research.</p>
+    <p>It's difficult to give credit to all contributors, as many have helped on Facebook, Reddit and Twitter. But many of these bands were mentioned at the ProgRock forum <a href="https://www.facebook.com/groups/361033647242122/" title="Progheads" target="_blank">Progheads</a>. It's a Norwegian Facebook group where one will find that many active artists are members. The group is vibrant and keeps updated lists like upcoming shows, active artists on Facebook, etc.</p>
+  </div>
   <h2 class="heading heading-2">The Bands</h2>
   <div class="bands">
     <div class="bands-head grid">

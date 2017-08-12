@@ -732,6 +732,41 @@ export class AppComponent {
   title = 'Progressive Rock - Norway';
   subtitle = 'A list of established and upcoming Progressive Rock bands from Norway.';
   bands = BANDS;
+  showHideWhy: boolean;
+  showHideCriteria: boolean;
+  showHideCredits: boolean;
+  constructor() {
+    this.showHideWhy = false;
+    this.showHideCriteria = false;
+    this.showHideCredits = false;
+  }
+  toggleShowWhy() {
+    this.showHideWhy = !this.showHideWhy;
+    if (this.showHideCriteria === true) {
+      this.showHideCriteria = !this.showHideCriteria;
+    }
+    if (this.showHideCredits === true) {
+      this.showHideCredits = !this.showHideCredits;
+    }
+  }
+  toggleShowCriteria() {
+    this.showHideCriteria = !this.showHideCriteria;
+    if (this.showHideWhy === true) {
+      this.showHideWhy = !this.showHideWhy;
+    }
+    if (this.showHideCredits === true) {
+      this.showHideCredits = !this.showHideCredits;
+    }
+  }
+  toggleShowCredits() {
+    this.showHideCredits = !this.showHideCredits;
+    if (this.showHideWhy === true) {
+      this.showHideWhy = !this.showHideWhy;
+    }
+    if (this.showHideCriteria === true) {
+      this.showHideCriteria = !this.showHideCriteria;
+    }
+  }
 }
 export class Band {
   id: number;
