@@ -15,37 +15,37 @@
   <p>Even though I was extremely open-minded while creating this list / playlist, <em>some of the artists I came accross were omitted</em>. I wanted to keep the playlist relevant, so when I felt that the band was too pop/metal oriented, I double-checked on their likely publicum through their related artists. I then omitted those artists that had little to no reference to other Progressive Rock bands already in the list.</p>
   <p>That <em>does not necessarily mean</em> that the artist you wish to see in this list will never make it to it. I'm still discovering bands, old and new, so I might not have heard of them yet.</p>
   <h2 class="heading heading-2">The Bands</h2>
-  <table class="bands">
-    <tr>
-      <td class="centered">ID</td>
-      <td>Name</td>
-      <td class="centered">On Playlist</td>
-      <td class="centered">Active</td>
-      <td>Spotify Follow</td>
-      <td>Facebook Like</td>
-    </tr>
-    <tr *ngFor="let band of bands" class="band">
-      <td class="band-badge">{{band.id}}</td>
-      <td *ngIf="band.fbId !== ''; then bandIsOnFacebook; else bandIsNotOnFacebook">...</td>
+  <div class="bands">
+    <div class="bands-head grid">
+      <div class="item item-1 band-nr centered">ID</div>
+      <div class="item item-2 band-name">Name</div>
+      <div class="item item-3 band-on-playlist centered">On Playlist</div>
+      <div class="item item-4 band-status centered">Active</div>
+      <div class="item item-5 band-spotify-artist-follow hide-below-768">Spotify Follow</div>
+      <div class="item item-6 band-facebook-page hide-below-768">Facebook Like</div>
+    </div>
+    <div *ngFor="let band of bands" class="band grid">
+      <div class="item item-1 centered band-nr">{{band.id}}</div>
+      <div *ngIf="band.fbId !== ''; then bandIsOnFacebook; else bandIsNotOnFacebook">...</div>
       <ng-template #bandIsOnFacebook>
-        <td class="band-name on-facebook">
+        <div class="item item-2 band-name on-facebook">
           <a [href]="'https://www.facebook.com/' + band.fbId | safe" title="{{band.name}}" target="_blank">
             {{band.name}}
           </a>
-        </td>
+        </div>
       </ng-template>
       <ng-template #bandIsNotOnFacebook>
-        <td class="band-name">
+        <div class="item item-2 band-name">
           {{band.name}}
-        </td>
+        </div>
       </ng-template>
-      <td *ngIf="band.onPlaylist === true; then bandIsOnPlaylist; else bandIsNotOnPlaylist">...</td>
-      <ng-template #bandIsOnPlaylist><td class="band-on-playlist yes centered">&#x2714;</td></ng-template>
-      <ng-template #bandIsNotOnPlaylist><td class="band-on-playlist no centered">&#x2718;</td></ng-template>
-      <td *ngIf="band.status === true; then bandIsActive; else bandIsInactive">...</td>
-      <ng-template #bandIsActive><td class="band-status yes centered">&#x2714;</td></ng-template>
-      <ng-template #bandIsInactive><td class="band-status no centered">&#x2718;</td></ng-template>
-      <td class="band-spotify-artist-follow centered">
+      <div *ngIf="band.onPlaylist === true; then bandIsOnPlaylist; else bandIsNotOnPlaylist">...</div>
+      <ng-template #bandIsOnPlaylist><div class="item item-3 centered band-on-playlist yes">&#x2714;</div></ng-template>
+      <ng-template #bandIsNotOnPlaylist><div class="item item-3 centered band-on-playlist no">&#x2718;</div></ng-template>
+      <div *ngIf="band.status === true; then bandIsActive; else bandIsInactive">...</div>
+      <ng-template #bandIsActive><div class="item item-4 centered band-status yes">&#x2714;</div></ng-template>
+      <ng-template #bandIsInactive><div class="item item-4 centered band-status no">&#x2718;</div></ng-template>
+      <div class="item item-5 band-spotify-artist-follow centered">
         <iframe *ngIf="band.artistId !== ''"
          [src]="'https://open.spotify.com/follow/1/?uri=spotify:artist:' + band.artistId + '&size=detail&theme=dark&show-count=0' | safe"
          width="100%"
@@ -54,8 +54,8 @@
          frameborder="0"
          style="border:none; overflow:hidden;"
          allowtransparency="true"></iframe>
-      </td>
-      <td class="band-facebook-page">
+      </div>
+      <div class="item item-6 band-facebook-page">
         <div class="un-border">
           <iframe *ngIf="band.fbId !== ''"
             [src]="'https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F' + band.fbId + '%2F&tabs&width=340&height=70&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=193070220882687' | safe"
@@ -66,9 +66,9 @@
             style="border:none; overflow:hidden;"
             allowTransparency="true"></iframe>
         </div>
-      </td>
-    </tr>
-  </table>
+      </div>
+    </div>
+  </div>
   <h2 class="heading heading-2">The Spotify Playlist</h2>
   <iframe src="https://open.spotify.com/embed/user/dreamyguy/playlist/612lQsjH7p9JTfgsekowCk" width="100%" height="800" frameborder="0" allowtransparency="true"></iframe>
 </div>

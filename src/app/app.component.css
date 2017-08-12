@@ -12,25 +12,84 @@
 .heading-page-intro {
   margin: 0 0 10px 0;
 }
-table {
-  width: 100%;
-  border-collapse: collapse;
+.grid {
+  padding: 10px 0;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    "i n n n n n n n p p a a"
+    "s s s s s s s s s s s s"
+    "f f f f f f f f f f f f";
 }
-tr:nth-child(odd) {
+@media (min-width: 500px) and (max-width: 767px) {
+  .grid {
+    grid-template-areas:
+      "i n n n n n n n p p a a"
+      "s s s s s s f f f f f f"
+      "s s s s s s f f f f f f";
+  }
+}
+@media (min-width: 768px) and (max-width: 879px) {
+  .grid {
+    grid-template-areas:
+      "i n n p a s s s f f f f"
+      "i n n p a s s s f f f f"
+      "i n n p a s s s f f f f";
+  }
+}
+@media (min-width: 880px) {
+  .grid {
+    grid-template-areas:
+      "i n n n p a s s s f f f"
+      "i n n n p a s s s f f f"
+      "i n n n p a s s s f f f";
+  }
+}
+@media (max-width: 767px) {
+  .hide-below-768 {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .grid {
+    padding: 0;
+  }
+}
+.grid .item {
+  align-self: center;
+}
+.band:nth-child(odd) {
   background-color: #1a1a1a;
 }
-td {
-  padding: 4px;
+.band-nr {
+  grid-area: i;
 }
-td.band-spotify-artist-follow,
-td.band-facebook-page {
-  line-height: 0;
+.band-name {
+  grid-area: n;
 }
-td.band-facebook-page {
-  padding: 0;
+.band-on-playlist {
+  grid-area: p;
+}
+.band-status {
+  grid-area: a;
+}
+.band-spotify-artist-follow {
+  grid-area: s;
 }
 .band-facebook-page {
+  grid-area: f;
+}
+.band-spotify-artist-follow,
+.band-facebook-page {
+  line-height: 0;
+}
+.band-facebook-page {
+  padding: 0;
   overflow: hidden;
+}
+.bands-head .band-facebook-page {
+  overflow: initial; /* exception */
 }
 .band-facebook-page .un-border {
   margin: -1px 0 0 -1px;
@@ -45,10 +104,3 @@ td.band-facebook-page {
 .no {
   color: #af0000;
 }
-
-.band-badge {}
-.band-name {}
-.band-on-playlist {}
-.band-status {}
-.band-spotify-artist-follow {}
-.band-facebook-page {}
