@@ -1,4 +1,8 @@
-# ProgrockNorway
+# Progressive Rock - Norway
+
+A simple single-page app featuring Norwegian Progressive Rock Artists. :guitar:
+
+If it exists, the page will list their Facebook Page & Spotify Artist Profile. through their respective social widgets. From there one can see both Facebook Page Like and Spotify Follow statuses, which one can conveniently change from there.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.1.
 
