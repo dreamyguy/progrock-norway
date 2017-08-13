@@ -19,7 +19,9 @@
         "favicon.ico",
         "manifest.json",
         "mstile-150x150.png",
-        "safari-pinned-tab.svg"
+        "safari-pinned-tab.svg",
+        "og-image.png",
+        "og-image-alt.png"
       ],
       "index": "index.html",
       "main": "main.ts",
