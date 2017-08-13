@@ -1,8 +1,9 @@
-/*
+$occre-darkest: #3d3b33;
 $occre-dark: #615e4b;
 $occre-middle: #8c886d; // default
 $occre-light: #BAB492;
-*/
+$tick-green: green;
+$tick-red: #af0000;
 
 .wrapper,
 .content {
@@ -13,7 +14,7 @@ $occre-light: #BAB492;
 }
 em,
 .heading {
-  color: #BAB492;
+  color: $occre-light;
 }
 .heading {
   margin-top: 0;
@@ -35,7 +36,7 @@ em,
   margin-bottom: 15px;
 }
 .heading-page-intro {
-  color: #615e4b;
+  color: $occre-dark;
   margin: 0 0 10px 0;
 }
 .grid {
@@ -47,47 +48,41 @@ em,
     "i n n n n n n n p p a a"
     "s s s s s s s s s s s s"
     "f f f f f f f f f f f f";
-}
-@media (min-width: 500px) and (max-width: 767px) {
-  .grid {
+  @media (min-width: 500px) and (max-width: 767px) {
     grid-template-areas:
       "i n n n n n n n p p a a"
       "s s s s s s f f f f f f"
       "s s s s s s f f f f f f";
   }
-}
-@media (min-width: 768px) and (max-width: 879px) {
-  .grid {
+  @media (min-width: 768px) and (max-width: 879px) {
     grid-template-areas:
       "i n n p a s s s f f f f"
       "i n n p a s s s f f f f"
       "i n n p a s s s f f f f";
   }
-}
-@media (min-width: 880px) {
-  .grid {
+  @media (min-width: 880px) {
     grid-template-areas:
       "i n n n p a s s s f f f"
       "i n n n p a s s s f f f"
       "i n n n p a s s s f f f";
   }
-}
-@media (max-width: 767px) {
-  .hide-below-768 {
-    display: none;
-  }
-}
-@media (min-width: 768px) {
-  .grid {
+  @media (min-width: 768px) {
     padding: 0;
     min-height: 70px;
   }
+  .item {
+    align-self: center;
+  }
 }
-.grid .item {
-  align-self: center;
+.hide-below-768 {
+  @media (max-width: 767px) {
+    display: none;
+  }
 }
-.band:nth-child(odd) {
-  background-color: #1a1a1a;
+.band {
+  &:nth-child(odd) {
+    background-color: #1a1a1a;
+  }
 }
 .band-nr {
   grid-area: i;
@@ -114,42 +109,42 @@ em,
 .band-facebook-page {
   padding: 0;
   overflow: hidden;
-}
-.bands-head .band-facebook-page {
-  overflow: initial; /* exception */
-}
-.band-facebook-page .un-border {
-  margin: -1px 0 0 -1px;
-  max-width: 338px;
+  .bands-head & {
+    overflow: initial; // exception
+  }
+  .un-border {
+    margin: -1px 0 0 -1px;
+    max-width: 338px;
+  }
 }
 .centered {
   text-align: center;
 }
 .yes {
-  color: green;
+  color: $tick-green;
 }
 .no {
-  color: #af0000;
+  color: $tick-red;
 }
 .menu {
   display: flex;
   justify-content: center;
   margin: 20px 0;
-}
-.menu > :last-child {
-  margin-right: 0;
-}
-.menu button {
-  cursor: pointer;
-  margin-right: 20px;
-  color: #BAB492;
-  background-color: #3d3b33;
-  border: none;
-  border-radius: 5px;
-  font-size: 15px;
-  padding: 10px 20px;
-  text-shadow: 1px 1px 2px black;
-}
-.menu button:focus {
-  outline: 0;
+  & > :last-child {
+    margin-right: 0;
+  }
+  button {
+    cursor: pointer;
+    margin-right: 20px;
+    color: $occre-light;
+    background-color: $occre-darkest;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px 20px;
+    text-shadow: 1px 1px 2px black;
+    &:focus {
+      outline: 0;
+    }
+  }
 }
