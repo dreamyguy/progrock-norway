@@ -80,6 +80,7 @@ em,
 @media (min-width: 768px) {
   .grid {
     padding: 0;
+    min-height: 70px;
   }
 }
 .grid .item {
