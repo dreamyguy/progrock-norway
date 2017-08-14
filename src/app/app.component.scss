@@ -5,11 +5,7 @@ $occre-light: #BAB492;
 $tick-green: green;
 $tick-red: #af0000;
 
-.wrapper,
-.content {
-  font-family: Arial, Helvetica, sans-serif;
-}
-.wrapper {
+.header {
   text-align: center;
 }
 em,
@@ -133,6 +129,8 @@ em,
     margin-right: 0;
   }
   button {
+    font-family: 'Playball', cursive;
+    font-size: 20px !important;
     cursor: pointer;
     margin-right: 20px;
     color: $occre-light;
