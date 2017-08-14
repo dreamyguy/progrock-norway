@@ -20,7 +20,7 @@ em,
   margin-top: 0;
 }
 .heading-1 {
-  font-size: 32px;
+  font-size: 40px;
 }
 .heading-2 {
   font-size: 24px;
@@ -32,7 +32,6 @@ em,
   font-size: 16px;
 }
 .heading-page {
-  font-size: 200%;
   margin-bottom: 15px;
 }
 .heading-page-intro {
@@ -145,6 +144,11 @@ em,
     text-shadow: 1px 1px 2px black;
     &:focus {
       outline: 0;
+    }
+    &.active {
+      color: $occre-darkest;
+      background-color: $occre-light;
+      text-shadow: none;
     }
   }
 }
