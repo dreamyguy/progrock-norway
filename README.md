@@ -29,7 +29,7 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 ## Releasing
 
-Run `npm deploy`. That's it! :sparkles:
+Run `npm run deploy`. That's it! :sparkles:
 
 It will run `ng build --prod --base-href https://dreamyguy.github.io/progrock-norway/` and then `ngh`.
 
