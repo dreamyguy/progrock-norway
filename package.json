@@ -1,6 +1,30 @@
 {
   "name": "progrock-norway",
-  "version": "1.0.1",
+  "version": "1.0.2",
+  "description": "A simple single-page app featuring Norwegian Progressive Rock Artists",
+  "keywords": [
+    "progressive rock norway",
+    "progressive rock",
+    "progressive rock spotify",
+    "spotify playlist",
+    "angular 4",
+    "front-end",
+    "sidhree",
+    "wallace sidhree",
+    "dreamyguy",
+    "oslo",
+    "norway"
+  ],
+  "homepage": "https://dreamyguy.github.io/progrock-norway/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dreamyguy/progrock-norway"
+  },
+  "author": {
+    "name": "Wallace Sidhrée",
+    "url": "http://sidhree.com/"
+  },
+  "copyright": "Copyright (c) Wallace Sidhrée - All rights reserved.",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -8,7 +32,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "ng build --prod --base-href https://dreamyguy.github.io/progrock-norway/ && ngh"
   },
   "private": true,
   "dependencies": {
@@ -32,6 +57,7 @@
     "@types/jasmine": "~2.5.53",
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "~6.0.60",
+    "angular-cli-ghpages": "^0.5.1",
     "codelyzer": "~3.0.1",
     "jasmine-core": "~2.6.2",
     "jasmine-spec-reporter": "~4.1.0",

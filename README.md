@@ -27,6 +27,16 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 Before running the tests make sure you are serving the app via `ng serve`.
 
+## Releasing
+
+Run `npm deploy`. That's it! :sparkles:
+
+It will run `ng build --prod --base-href https://dreamyguy.github.io/progrock-norway/` and then `ngh`.
+
+The command `ngh` will deploy the production build to its respective [Github Page](https://dreamyguy.github.io/progrock-norway/). This command is provided by the `angular-cli-ghpages` dependency, which is no longer a part of Angular core.
+
+To know more about Github Pages, [click here](https://pages.github.com/).
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
