@@ -10,7 +10,7 @@ import { ARTISTS } from './data/artists';
 
 export class AppComponent {
   title = 'Progressive Rock Norway';
-  subtitle = 'A list of established and upcoming Progressive Rock bands from Norway.';
+  subtitle = 'A list of established and upcoming Progressive Rock bands from Norway';
   bands = ARTISTS;
   showHideWhy: boolean;
   showHideCriteria: boolean;

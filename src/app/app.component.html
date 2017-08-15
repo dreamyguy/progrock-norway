@@ -1,11 +1,3 @@
-<div class="header">
-  <h1 class="heading heading-1 heading-page">
-    {{title}}
-  </h1>
-  <p class="heading-page-intro">
-    {{subtitle}}
-  </p>
-</div>
 <div class="content">
   <div class="menu">
     <button [className]="toggleClassWhy" (click)="toggleShowWhy()">
@@ -36,10 +28,10 @@
   </div>
   <div *ngIf="showHideCredits">
     <h2 class="heading heading-2">Credits</h2>
-    <p>This page was built by me, <a href="https://www.facebook.com/sidhree/" title="Wallace Sidhrée" target="_blank">Wallace Sidhrée</a>. It was a natural follow up to the playlist, which was the inspiration to the research.</p>
+    <p>This page was built by me, <a href="https://www.facebook.com/sidhree/" title="Wallace Sidhrée" target="_blank">Wallace Sidhrée</a>. It was a natural follow-up to the playlist, which was the inspiration to the research.</p>
     <p>It's difficult to give credit to all contributors, as many have helped on Facebook, Reddit and Twitter. But many of these bands were mentioned at the ProgRock forum <a href="https://www.facebook.com/groups/361033647242122/" title="Progheads" target="_blank">Progheads</a>. It's a Norwegian Facebook group where one will find that many active artists are members. The group is vibrant and keeps updated lists like upcoming shows, active artists on Facebook, etc.</p>
   </div>
-  <h2 class="heading heading-2">The Bands</h2>
+  <h2 class="heading heading-2">The Bands <span class="font-raleway heading-parenthesis">(in order of appearance in playlist)</span></h2>
   <div class="search">
     <input type="text" [(ngModel)]="searchArtist" placeholder="Search for / Filter Artists" />
   </div>
@@ -97,6 +89,8 @@
       </div>
     </div>
   </div>
-  <h2 class="heading heading-2">The Spotify Playlist</h2>
-  <iframe src="https://open.spotify.com/embed/user/dreamyguy/playlist/612lQsjH7p9JTfgsekowCk" width="100%" height="800" frameborder="0" allowtransparency="true"></iframe>
+  <div class="playlist">
+    <h2 class="heading heading-2">The Spotify Playlist</h2>
+    <iframe src="https://open.spotify.com/embed/user/dreamyguy/playlist/612lQsjH7p9JTfgsekowCk" width="100%" height="800" frameborder="0" allowtransparency="true"></iframe>
+  </div>
 </div>

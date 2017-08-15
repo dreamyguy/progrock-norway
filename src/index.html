@@ -8,7 +8,7 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Prog Rock artists from Norway, both emerging and established, listed for your convenience, along with a curated Spotify playlist by Wallace Sidhr&eacute;e">
-  <meta name="keywords" content="spotify, progressive rock, progrock, prog rock, progressive rock spotify, progrock spotify, prog rock spotify, progressive rock norway, progrock norway, prog rock norway">
+  <meta name="keywords" content="spotify playlist, progressive rock, progrock, prog rock, progressive rock spotify, progrock spotify, prog rock spotify, progressive rock norway, progrock norway, prog rock norway">
   <meta name="robots" content="index, follow">
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="website">
@@ -55,10 +55,11 @@
       background-color: #111;
       color: #8c886d;
       text-shadow: 1px 1px 2px black;
-      margin: 10px 2%;
+      margin: 10px 2% 40px;
     }
     a {
       color: #00aaaa;
+      text-decoration: none;
     }
     a::active {
       color: #00aaaa;
@@ -68,6 +69,13 @@
     }
     a::visited {
       color: #00aaaa;
+    }
+    em,
+    .heading {
+      color: #BAB492; /* '$occre-light' on sass */
+    }
+    .header {
+      text-align: center;
     }
     .font-raleway,
     body {
@@ -84,6 +92,20 @@
   </style>
 </head>
 <body>
-  <app-root></app-root>
+  <div class="header">
+    <h1 class="heading heading-1 heading-page">
+      Progressive Rock Norway
+    </h1>
+    <p class="heading-page-intro">
+      A list of established and upcoming Progressive Rock bands from Norway
+    </p>
+  </div>
+  <app-root>Loading content...</app-root>
+  <div class="about">
+    <h2 class="heading heading-2">About</h2>
+    <p><em>Progressive Rock Norway</em> is an initiative to list both emerging and already established Prog Rock artists from Norway, in a way that would allow users to conveniently follow (on Spotify) and/or like the Facebook Page of all featured artists.</p>
+    <p>Each artist is listed with their name, Spotify profile, Facebook Page, playlist presence &amp; activity status.</p>
+    <p>It is delivered along with a curated Spotify playlist by <a href="https://www.facebook.com/sidhree/" title="Wallace Sidhrée" target="_blank">Wallace Sidhr&eacute;e</a>, an artist that is also present in the Spotify playlist.</p>
+  </div>
 </body>
 </html>

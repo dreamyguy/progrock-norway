@@ -6,13 +6,6 @@ $occre-lighter: #d9d4b9;
 $tick-green: green;
 $tick-red: #af0000;
 
-.header {
-  text-align: center;
-}
-em,
-.heading {
-  color: $occre-light;
-}
 .heading {
   margin-top: 0;
 }
@@ -35,7 +28,13 @@ em,
   color: $occre-dark;
   margin: 0 0 10px 0;
 }
-.bands {
+.heading-parenthesis {
+  color: $occre-dark;
+  font-size: 15px;
+  margin-left: 5px;
+}
+.bands,
+.playlist {
   margin-bottom: 40px;
 }
 .grid {
