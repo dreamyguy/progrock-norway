@@ -40,6 +40,9 @@
     <p>It's difficult to give credit to all contributors, as many have helped on Facebook, Reddit and Twitter. But many of these bands were mentioned at the ProgRock forum <a href="https://www.facebook.com/groups/361033647242122/" title="Progheads" target="_blank">Progheads</a>. It's a Norwegian Facebook group where one will find that many active artists are members. The group is vibrant and keeps updated lists like upcoming shows, active artists on Facebook, etc.</p>
   </div>
   <h2 class="heading heading-2">The Bands</h2>
+  <div class="search">
+    <input type="text" [(ngModel)]="searchArtist" placeholder="Search for / Filter Artists" />
+  </div>
   <div class="bands">
     <div class="bands-head grid">
       <div class="item item-1 band-nr centered">ID</div>
@@ -49,7 +52,7 @@
       <div class="item item-5 band-spotify-artist-follow hide-below-768">Spotify Follow</div>
       <div class="item item-6 band-facebook-page hide-below-768">Facebook Like</div>
     </div>
-    <div *ngFor="let band of bands" class="band grid">
+    <div *ngFor="let band of (bands | artistFilter: searchArtist)" class="band grid">
       <div class="item item-1 centered band-nr">{{band.id}}</div>
       <div *ngIf="band.fbId !== ''; then bandIsOnFacebook; else bandIsNotOnFacebook">...</div>
       <ng-template #bandIsOnFacebook>

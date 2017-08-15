@@ -1,6 +1,6 @@
 import { Pipe, PipeTransform, NgModule } from '@angular/core';
 import { BrowserModule, DomSanitizer } from '@angular/platform-browser';
-import { FormsModule }   from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 
 @Pipe({ name: 'safe' })
 export class SafePipe implements PipeTransform {
@@ -11,6 +11,7 @@ export class SafePipe implements PipeTransform {
 }
 
 import { AppComponent } from './app.component';
+import { ArtistPipe } from './artist.pipe';
 
 @NgModule({
   imports: [
@@ -19,7 +20,8 @@ import { AppComponent } from './app.component';
   ],
   declarations: [
     AppComponent,
-    SafePipe
+    SafePipe,
+    ArtistPipe
   ],
   providers: [],
   bootstrap: [AppComponent]

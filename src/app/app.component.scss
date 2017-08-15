@@ -2,6 +2,7 @@ $occre-darkest: #3d3b33;
 $occre-dark: #615e4b;
 $occre-middle: #8c886d; // default
 $occre-light: #BAB492;
+$occre-lighter: #d9d4b9;
 $tick-green: green;
 $tick-red: #af0000;
 
@@ -33,6 +34,9 @@ em,
 .heading-page-intro {
   color: $occre-dark;
   margin: 0 0 10px 0;
+}
+.bands {
+  margin-bottom: 40px;
 }
 .grid {
   padding: 10px 0;
@@ -120,6 +124,40 @@ em,
 }
 .no {
   color: $tick-red;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  input {
+    background-color: $occre-dark;
+    color: $occre-lighter;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    max-width: 500px;
+    @media (min-width: 768px) {
+      max-width: 500px;
+    }
+    &:focus {
+      outline-width: 0;
+    }
+    // color the placeholder
+    &::-webkit-input-placeholder { // Chrome/Opera/Safari
+      color: $occre-light;
+    }
+    &::-moz-placeholder { // Firefox 19+
+      color: $occre-light;
+    }
+    &:-ms-input-placeholder { // IE 10+
+      color: $occre-light;
+    }
+    &:-moz-placeholder { // Firefox 18-
+      color: $occre-light;
+      opacity: 1;
+    }
+  }
 }
 .menu {
   display: flex;
