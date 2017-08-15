@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import artists from './data/artists.json';
+import { ARTISTS } from './data/artists';
 
 @Component({
   selector: 'app-root',
@@ -10,7 +11,7 @@ import artists from './data/artists.json';
 export class AppComponent {
   title = 'Progressive Rock - Norway';
   subtitle = 'A list of established and upcoming Progressive Rock bands from Norway.';
-  bands = artists;
+  bands = ARTISTS;
   showHideWhy: boolean;
   showHideCriteria: boolean;
   showHideCredits: boolean;
