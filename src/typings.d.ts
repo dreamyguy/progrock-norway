@@ -3,3 +3,8 @@ declare var module: NodeModule;
 interface NodeModule {
   id: string;
 }
+// so that we can easily import json
+declare module "*.json" {
+    const value: any;
+    export default value;
+}
