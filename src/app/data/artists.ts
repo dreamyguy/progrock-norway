@@ -171,7 +171,7 @@ export const ARTISTS = [{
   id: 21,
   name: 'Farmers Market',
   artistId: '5NVnpmSzeucVtzvugmlYqT',
-  fbId: '',
+  fbId: 'farmersmarkettheband',
   status: true,
   onPlaylist: true,
   listeners: 1626
@@ -685,6 +685,46 @@ export const ARTISTS = [{
   listeners: 0
 }, {
   id: 85,
+  name: 'Clarion Call',
+  artistId: '74MQMIFwm6r6hd5SrknBmP',
+  fbId: 'prissnus',
+  status: true,
+  onPlaylist: false,
+  listeners: 0
+}, {
+  id: 86,
+  name: 'Dimension Act',
+  artistId: '4l67ZT0Z9ZJzP0yn1JWIWM',
+  fbId: 'dimensionactprofile',
+  status: true,
+  onPlaylist: false,
+  listeners: 0
+}, {
+  id: 87,
+  name: 'Drom',
+  artistId: '5FqeNaXzMckcgijOv4Nxno',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 0
+}, {
+  id: 88,
+  name: 'El Doom & The Born Electric',
+  artistId: '6Pe45g7YB8yDSWoryqJ5Qc',
+  fbId: 'eldoomandthebornelectric',
+  status: true,
+  onPlaylist: false,
+  listeners: 0
+}, {
+  id: 89,
+  name: 'Finn Arild',
+  artistId: '0UxA4foK5go6s7lRCLX3JS',
+  fbId: 'Finn-Arild-40384025082',
+  status: true,
+  onPlaylist: false,
+  listeners: 0
+}, {
+  id: 90,
   name: 'Fraction distraction',
   artistId: '',
   fbId: 'fractiondistraction',
@@ -692,7 +732,23 @@ export const ARTISTS = [{
   onPlaylist: false,
   listeners: 0
 }, {
-  id: 86,
+  id: 91,
+  name: 'Gargamel',
+  artistId: '6f8MRWxtftR4Ococby81Jn',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 0
+}, {
+  id: 92,
+  name: 'I Lit the Sun',
+  artistId: '4TkIZuVIFntFT5aFABE6pi',
+  fbId: 'ILitTheSun',
+  status: true,
+  onPlaylist: false,
+  listeners: 0
+}, {
+  id: 93,
   name: 'Ingelrii',
   artistId: '',
   fbId: 'ingelrii',
@@ -700,7 +756,7 @@ export const ARTISTS = [{
   onPlaylist: false,
   listeners: 0
 }, {
-  id: 87,
+  id: 94,
   name: 'Jordsjø',
   artistId: '',
   fbId: 'jordsjoe',
@@ -708,7 +764,71 @@ export const ARTISTS = [{
   onPlaylist: false,
   listeners: 0
 }, {
-  id: 88,
+  id: 95,
+  name: 'Madder Mortem',
+  artistId: '3UifQ31wx5RQTJXgmqzhYF',
+  fbId: 'mmortem',
+  status: true,
+  onPlaylist: false,
+  listeners: 0
+}, {
+  id: 96,
+  name: 'Meer',
+  artistId: '4pAX6VBnbccF9uVcb9EGiq',
+  fbId: 'MEERmusikk',
+  status: true,
+  onPlaylist: false,
+  listeners: 0
+}, {
+  id: 97,
+  name: 'Metrognom',
+  artistId: '',
+  fbId: 'MetroGnoM-38581426512',
+  status: false,
+  onPlaylist: false,
+  listeners: 0
+}, {
+  id: 98,
+  name: 'Nan Madol',
+  artistId: '5UqW0dPoQQvMLj9Uc0mTMI',
+  fbId: 'nanmadolmusic',
+  status: true,
+  onPlaylist: false,
+  listeners: 0
+}, {
+  id: 99,
+  name: 'Permian Incident',
+  artistId: '4Y9tlDA9OEkpv2eP212JiC',
+  fbId: 'PermianIncident',
+  status: true,
+  onPlaylist: false,
+  listeners: 0
+}, {
+  id: 100,
+  name: 'Ring Van Möbius',
+  artistId: '',
+  fbId: 'RING-VAN-M%C3%96BIUS-1403939953205730',
+  status: true,
+  onPlaylist: false,
+  listeners: 0
+}, {
+  id: 101,
+  name: 'Sot',
+  artistId: '24qXrXrfdFHusWl05QrsjX',
+  fbId: 'saltoftusj',
+  status: true,
+  onPlaylist: false,
+  listeners: 0
+}, {
+  id: 102,
+  name: 'Spurv',
+  artistId: '4V5cDBPMMnbdefVmdMLReN',
+  fbId: 'Spurvinnen',
+  status: true,
+  onPlaylist: false,
+  listeners: 0
+}, {
+  id: 103,
   name: 'Swifan Eolh',
   artistId: '',
   fbId: 'mudrasiddhi',
@@ -716,7 +836,7 @@ export const ARTISTS = [{
   onPlaylist: false,
   listeners: 0
 }, {
-  id: 89,
+  id: 104,
   name: 'The Chronicles of Father Robin',
   artistId: '',
   fbId: 'The-Chronicles-of-Father-Robin-109306549137345',
@@ -724,11 +844,43 @@ export const ARTISTS = [{
   onPlaylist: false,
   listeners: 0
 }, {
-  id: 90,
+  id: 105,
+  name: 'Ugler i Mosen',
+  artistId: '2bJ59tZ8OgPnCccVgPou81',
+  fbId: 'uglerimosen',
+  status: true,
+  onPlaylist: false,
+  listeners: 0
+}, {
+  id: 106,
+  name: 'Undertakers Circus',
+  artistId: '7KMU8yxLwQmEGKLt2DeHxj',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 0
+}, {
+  id: 107,
+  name: 'Visekongene',
+  artistId: '6ji2OGhjpP1gdRgu5m5BKt',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 0
+}, {
+  id: 108,
   name: 'When Mary',
   artistId: '',
   fbId: 'whenmary',
   status: true,
   onPlaylist: false,
   listeners: 0
-}]
+}, {
+  id: 109,
+  name: 'Withem',
+  artistId: '72PR9PiHOU7z5aWAjFb0UF',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 0
+}];
