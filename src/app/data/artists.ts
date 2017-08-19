@@ -6,6 +6,7 @@ export interface Artists {
   status: boolean;
   onPlaylist: boolean;
   listeners: number;
+  weight: boolean;
 }
 export const ARTISTS = [{
   id: 1,
@@ -14,7 +15,8 @@ export const ARTISTS = [{
   fbId: 'Pymlico',
   status: true,
   onPlaylist: true,
-  listeners: 192
+  listeners: 192,
+  weight: false
 }, {
   id: 2,
   name: 'Wallace Sidhrée',
@@ -22,7 +24,8 @@ export const ARTISTS = [{
   fbId: 'sidhree',
   status: true,
   onPlaylist: true,
-  listeners: 18
+  listeners: 18,
+  weight: false
 }, {
   id: 3,
   name: 'Wobbler',
@@ -30,7 +33,8 @@ export const ARTISTS = [{
   fbId: 'wobblerofficial',
   status: true,
   onPlaylist: true,
-  listeners: 1012
+  listeners: 1012,
+  weight: false
 }, {
   id: 4,
   name: 'Gentle Knife',
@@ -38,7 +42,8 @@ export const ARTISTS = [{
   fbId: 'gentleknife',
   status: true,
   onPlaylist: true,
-  listeners: 527
+  listeners: 527,
+  weight: false
 }, {
   id: 5,
   name: 'Motorpsycho',
@@ -46,7 +51,8 @@ export const ARTISTS = [{
   fbId: '',
   status: true,
   onPlaylist: true,
-  listeners: 27586
+  listeners: 27586,
+  weight: false
 }, {
   id: 6,
   name: 'Kerrs Pink',
@@ -54,7 +60,8 @@ export const ARTISTS = [{
   fbId: 'kerrspinkofficial',
   status: true,
   onPlaylist: true,
-  listeners: 147
+  listeners: 147,
+  weight: false
 }, {
   id: 7,
   name: 'Tusmørke',
@@ -62,7 +69,8 @@ export const ARTISTS = [{
   fbId: 'Tusmorke',
   status: true,
   onPlaylist: true,
-  listeners: 2895
+  listeners: 2895,
+  weight: false
 }, {
   id: 8,
   name: 'Tenderton',
@@ -70,7 +78,8 @@ export const ARTISTS = [{
   fbId: 'tendertonband',
   status: true,
   onPlaylist: true,
-  listeners: 7
+  listeners: 7,
+  weight: false
 }, {
   id: 9,
   name: 'White Willow',
@@ -78,7 +87,8 @@ export const ARTISTS = [{
   fbId: 'whitewillowband',
   status: true,
   onPlaylist: true,
-  listeners: 1111
+  listeners: 1111,
+  weight: false
 }, {
   id: 10,
   name: 'Pluto And the Planets',
@@ -86,7 +96,8 @@ export const ARTISTS = [{
   fbId: 'PLUTO-AND-THE-PLANETS-19611404996',
   status: true,
   onPlaylist: true,
-  listeners: 24
+  listeners: 24,
+  weight: false
 }, {
   id: 11,
   name: 'Pixie Ninja',
@@ -94,7 +105,8 @@ export const ARTISTS = [{
   fbId: 'pixieninjaband',
   status: true,
   onPlaylist: true,
-  listeners: 221
+  listeners: 221,
+  weight: false
 }, {
   id: 12,
   name: 'Soup',
@@ -102,7 +114,8 @@ export const ARTISTS = [{
   fbId: 'soupsound',
   status: true,
   onPlaylist: true,
-  listeners: 4328
+  listeners: 4328,
+  weight: false
 }, {
   id: 13,
   name: 'ProgAtom',
@@ -110,7 +123,8 @@ export const ARTISTS = [{
   fbId: 'progatom',
   status: true,
   onPlaylist: true,
-  listeners: 14
+  listeners: 14,
+  weight: false
 }, {
   id: 14,
   name: 'Magic pie',
@@ -118,7 +132,8 @@ export const ARTISTS = [{
   fbId: 'MagicPieOfficial',
   status: true,
   onPlaylist: true,
-  listeners: 2190
+  listeners: 2190,
+  weight: false
 }, {
   id: 15,
   name: 'Annot Rhül',
@@ -126,7 +141,8 @@ export const ARTISTS = [{
   fbId: 'annotrhul',
   status: true,
   onPlaylist: true,
-  listeners: 36
+  listeners: 36,
+  weight: false
 }, {
   id: 16,
   name: 'Arabs in aspic',
@@ -134,7 +150,8 @@ export const ARTISTS = [{
   fbId: 'arabsinaspic',
   status: true,
   onPlaylist: true,
-  listeners: 304
+  listeners: 304,
+  weight: false
 }, {
   id: 17,
   name: 'Suburban Savages',
@@ -142,7 +159,8 @@ export const ARTISTS = [{
   fbId: 'SuburbanSavages',
   status: true,
   onPlaylist: true,
-  listeners: 68
+  listeners: 68,
+  weight: false
 }, {
   id: 18,
   name: 'Knekklectric',
@@ -150,7 +168,8 @@ export const ARTISTS = [{
   fbId: 'knekklectric',
   status: true,
   onPlaylist: true,
-  listeners: 250
+  listeners: 250,
+  weight: false
 }, {
   id: 19,
   name: 'Bjørn Riis Band',
@@ -158,7 +177,8 @@ export const ARTISTS = [{
   fbId: 'BjornRiisGuitarPage',
   status: true,
   onPlaylist: true,
-  listeners: 6439
+  listeners: 6439,
+  weight: false
 }, {
   id: 20,
   name: 'Jono el grande',
@@ -166,7 +186,8 @@ export const ARTISTS = [{
   fbId: '',
   status: true,
   onPlaylist: true,
-  listeners: 153
+  listeners: 153,
+  weight: false
 }, {
   id: 21,
   name: 'Farmers Market',
@@ -174,7 +195,8 @@ export const ARTISTS = [{
   fbId: 'farmersmarkettheband',
   status: true,
   onPlaylist: true,
-  listeners: 1626
+  listeners: 1626,
+  weight: false
 }, {
   id: 22,
   name: 'Weserbergland',
@@ -182,7 +204,8 @@ export const ARTISTS = [{
   fbId: 'weserberglandband',
   status: true,
   onPlaylist: true,
-  listeners: 149
+  listeners: 149,
+  weight: false
 }, {
   id: 23,
   name: 'Bez Taktu',
@@ -190,7 +213,8 @@ export const ARTISTS = [{
   fbId: 'BezTaktu',
   status: true,
   onPlaylist: true,
-  listeners: 31
+  listeners: 31,
+  weight: false
 }, {
   id: 24,
   name: 'Seven Impale',
@@ -198,7 +222,8 @@ export const ARTISTS = [{
   fbId: 'sevenimpale',
   status: true,
   onPlaylist: true,
-  listeners: 655
+  listeners: 655,
+  weight: false
 }, {
   id: 25,
   name: 'Elephant Plaza',
@@ -206,7 +231,8 @@ export const ARTISTS = [{
   fbId: 'elephantplaza',
   status: true,
   onPlaylist: true,
-  listeners: 86
+  listeners: 86,
+  weight: false
 }, {
   id: 26,
   name: 'Umpfel',
@@ -214,7 +240,8 @@ export const ARTISTS = [{
   fbId: 'umpfel',
   status: true,
   onPlaylist: true,
-  listeners: 235
+  listeners: 235,
+  weight: false
 }, {
   id: 27,
   name: 'The Brimstone Solar Radiation Band',
@@ -222,7 +249,8 @@ export const ARTISTS = [{
   fbId: 'The-Brimstone-Solar-Radiation-Band-6553618902',
   status: true,
   onPlaylist: true,
-  listeners: 358
+  listeners: 358,
+  weight: false
 }, {
   id: 28,
   name: 'Glutton',
@@ -230,7 +258,8 @@ export const ARTISTS = [{
   fbId: 'gluttonmusic',
   status: true,
   onPlaylist: true,
-  listeners: 38
+  listeners: 38,
+  weight: false
 }, {
   id: 29,
   name: 'Leprous',
@@ -238,7 +267,8 @@ export const ARTISTS = [{
   fbId: 'leprousband',
   status: true,
   onPlaylist: true,
-  listeners: 111304
+  listeners: 111304,
+  weight: false
 }, {
   id: 30,
   name: '1099',
@@ -246,7 +276,8 @@ export const ARTISTS = [{
   fbId: '',
   status: true,
   onPlaylist: true,
-  listeners: 131
+  listeners: 131,
+  weight: false
 }, {
   id: 31,
   name: 'The Samuel Jackson Five',
@@ -254,7 +285,8 @@ export const ARTISTS = [{
   fbId: 'thesamueljacksonfive',
   status: true,
   onPlaylist: true,
-  listeners: 2393
+  listeners: 2393,
+  weight: false
 }, {
   id: 32,
   // tslint:disable-next-line:quotemark
@@ -263,7 +295,8 @@ export const ARTISTS = [{
   fbId: 'Bushmans-Revenge-187627191297638',
   status: true,
   onPlaylist: true,
-  listeners: 789
+  listeners: 789,
+  weight: false
 }, {
   id: 33,
   name: 'Elephant9',
@@ -271,7 +304,8 @@ export const ARTISTS = [{
   fbId: 'elephant9music',
   status: true,
   onPlaylist: true,
-  listeners: 742
+  listeners: 742,
+  weight: false
 }, {
   id: 34,
   name: 'Krokofant',
@@ -279,7 +313,8 @@ export const ARTISTS = [{
   fbId: 'krokofantmusic',
   status: true,
   onPlaylist: true,
-  listeners: 492
+  listeners: 492,
+  weight: false
 }, {
   id: 35,
   name: 'Hedvig Mollestad Trio',
@@ -287,7 +322,8 @@ export const ARTISTS = [{
   fbId: 'HedvigMollestadTrio',
   status: true,
   onPlaylist: true,
-  listeners: 1559
+  listeners: 1559,
+  weight: false
 }, {
   id: 36,
   name: 'Panzerpappa',
@@ -295,7 +331,8 @@ export const ARTISTS = [{
   fbId: 'Panzerpappa-112379508814650',
   status: true,
   onPlaylist: true,
-  listeners: 135
+  listeners: 135,
+  weight: false
 }, {
   id: 37,
   name: 'Airbag',
@@ -303,7 +340,8 @@ export const ARTISTS = [{
   fbId: 'airbagsound',
   status: true,
   onPlaylist: true,
-  listeners: 9111
+  listeners: 9111,
+  weight: false
 }, {
   id: 38,
   name: 'Kaukasus',
@@ -311,7 +349,8 @@ export const ARTISTS = [{
   fbId: 'KaukasusBand',
   status: true,
   onPlaylist: true,
-  listeners: 15
+  listeners: 15,
+  weight: false
 }, {
   id: 39,
   name: 'Procosmian Fannyfiddlers',
@@ -319,7 +358,8 @@ export const ARTISTS = [{
   fbId: 'Procosmian-Fannyfiddlers-290427701038809',
   status: true,
   onPlaylist: true,
-  listeners: 5
+  listeners: 5,
+  weight: false
 }, {
   id: 40,
   name: 'Trojka',
@@ -327,7 +367,8 @@ export const ARTISTS = [{
   fbId: 'TrojkaBergen',
   status: true,
   onPlaylist: true,
-  listeners: 123
+  listeners: 123,
+  weight: false
 }, {
   id: 41,
   name: 'Rendezvous Point',
@@ -335,7 +376,8 @@ export const ARTISTS = [{
   fbId: 'RendezvousPointOfficial',
   status: true,
   onPlaylist: true,
-  listeners: 8108
+  listeners: 8108,
+  weight: false
 }, {
   id: 42,
   // tslint:disable-next-line:quotemark
@@ -344,7 +386,8 @@ export const ARTISTS = [{
   fbId: 'officialdaccord',
   status: true,
   onPlaylist: true,
-  listeners: 124
+  listeners: 124,
+  weight: false
 }, {
   id: 43,
   name: 'Adventure',
@@ -352,7 +395,8 @@ export const ARTISTS = [{
   fbId: '',
   status: true,
   onPlaylist: true,
-  listeners: 19
+  listeners: 19,
+  weight: false
 }, {
   id: 44,
   name: 'Høst',
@@ -360,7 +404,8 @@ export const ARTISTS = [{
   fbId: 'HOSTNORWAY',
   status: true,
   onPlaylist: true,
-  listeners: 524
+  listeners: 524,
+  weight: false
 }, {
   id: 45,
   name: 'Ruphus',
@@ -368,7 +413,8 @@ export const ARTISTS = [{
   fbId: 'thebandruphus',
   status: false,
   onPlaylist: true,
-  listeners: 654
+  listeners: 654,
+  weight: false
 }, {
   id: 46,
   name: 'DejaVu',
@@ -376,7 +422,8 @@ export const ARTISTS = [{
   fbId: '',
   status: true,
   onPlaylist: true,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }, {
   id: 47,
   name: 'Nordagust',
@@ -384,7 +431,8 @@ export const ARTISTS = [{
   fbId: 'Nordagust-152203358171757',
   status: true,
   onPlaylist: true,
-  listeners: 36
+  listeners: 36,
+  weight: false
 }, {
   id: 48,
   name: 'Popol Ace',
@@ -392,7 +440,8 @@ export const ARTISTS = [{
   fbId: '',
   status: false,
   onPlaylist: true,
-  listeners: 1917
+  listeners: 1917,
+  weight: false
 }, {
   id: 49,
   name: 'Akasha',
@@ -400,7 +449,8 @@ export const ARTISTS = [{
   fbId: '',
   status: false,
   onPlaylist: true,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }, {
   id: 50,
   // tslint:disable-next-line:quotemark
@@ -409,7 +459,8 @@ export const ARTISTS = [{
   fbId: '',
   status: false,
   onPlaylist: true,
-  listeners: 29
+  listeners: 29,
+  weight: false
 }, {
   id: 51,
   name: 'Oak',
@@ -417,7 +468,8 @@ export const ARTISTS = [{
   fbId: 'oakinoslo',
   status: true,
   onPlaylist: true,
-  listeners: 163
+  listeners: 163,
+  weight: false
 }, {
   id: 52,
   name: 'Aunt Mary',
@@ -425,7 +477,8 @@ export const ARTISTS = [{
   fbId: 'auntmarytheband',
   status: true,
   onPlaylist: true,
-  listeners: 1655
+  listeners: 1655,
+  weight: false
 }, {
   id: 53,
   name: 'Shaman Elephant',
@@ -433,7 +486,8 @@ export const ARTISTS = [{
   fbId: 'shamanelephant',
   status: true,
   onPlaylist: true,
-  listeners: 389
+  listeners: 389,
+  weight: false
 }, {
   id: 54,
   name: 'Tangle Edge',
@@ -441,7 +495,8 @@ export const ARTISTS = [{
   fbId: 'Tangle-Edge-134566096658445',
   status: true,
   onPlaylist: true,
-  listeners: 17
+  listeners: 17,
+  weight: false
 }, {
   id: 55,
   name: 'Seid',
@@ -449,7 +504,8 @@ export const ARTISTS = [{
   fbId: 'seidrock',
   status: true,
   onPlaylist: true,
-  listeners: 1913
+  listeners: 1913,
+  weight: false
 }, {
   id: 56,
   name: 'Synkoke',
@@ -457,7 +513,8 @@ export const ARTISTS = [{
   fbId: 'synkoke',
   status: true,
   onPlaylist: true,
-  listeners: 33
+  listeners: 33,
+  weight: false
 }, {
   id: 57,
   name: 'Fatal fusion',
@@ -465,7 +522,8 @@ export const ARTISTS = [{
   fbId: 'Fatal-Fusion-49222763785',
   status: true,
   onPlaylist: true,
-  listeners: 392
+  listeners: 392,
+  weight: false
 }, {
   id: 58,
   name: 'Prudence',
@@ -473,7 +531,8 @@ export const ARTISTS = [{
   fbId: '',
   status: false,
   onPlaylist: true,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }, {
   id: 59,
   name: 'Junipher Greene',
@@ -481,7 +540,8 @@ export const ARTISTS = [{
   fbId: 'juniphergreenejubilee',
   status: false,
   onPlaylist: true,
-  listeners: 377
+  listeners: 377,
+  weight: false
 }, {
   id: 60,
   name: 'Last Ember',
@@ -489,7 +549,8 @@ export const ARTISTS = [{
   fbId: 'LastEmberband',
   status: true,
   onPlaylist: true,
-  listeners: 34
+  listeners: 34,
+  weight: false
 }, {
   id: 61,
   name: 'Ossicles',
@@ -497,7 +558,8 @@ export const ARTISTS = [{
   fbId: 'Ossicles',
   status: true,
   onPlaylist: true,
-  listeners: 74
+  listeners: 74,
+  weight: false
 }, {
   id: 62,
   name: 'Gazpacho',
@@ -505,7 +567,8 @@ export const ARTISTS = [{
   fbId: 'Gazpacho.Official.BandPage',
   status: true,
   onPlaylist: true,
-  listeners: 26179
+  listeners: 26179,
+  weight: false
 }, {
   id: 63,
   name: 'Oriental Sunshine',
@@ -513,7 +576,8 @@ export const ARTISTS = [{
   fbId: '',
   status: true,
   onPlaylist: true,
-  listeners: 206
+  listeners: 206,
+  weight: false
 }, {
   id: 64,
   name: 'The Windmill',
@@ -521,7 +585,8 @@ export const ARTISTS = [{
   fbId: 'The-Windmill-142175499160527',
   status: true,
   onPlaylist: true,
-  listeners: 97
+  listeners: 97,
+  weight: false
 }, {
   id: 65,
   name: 'Actionfredag',
@@ -529,7 +594,8 @@ export const ARTISTS = [{
   fbId: 'actionfredag',
   status: true,
   onPlaylist: true,
-  listeners: 11
+  listeners: 11,
+  weight: false
 }, {
   id: 66,
   name: 'Det Skandaløse Orkester',
@@ -537,7 +603,8 @@ export const ARTISTS = [{
   fbId: 'skandalose',
   status: true,
   onPlaylist: true,
-  listeners: 62
+  listeners: 62,
+  weight: false
 }, {
   id: 67,
   name: 'Infringement',
@@ -545,7 +612,8 @@ export const ARTISTS = [{
   fbId: 'infringementband',
   status: true,
   onPlaylist: true,
-  listeners: 43
+  listeners: 43,
+  weight: false
 }, {
   id: 68,
   name: 'Kongle',
@@ -553,7 +621,8 @@ export const ARTISTS = [{
   fbId: 'konglebergen',
   status: true,
   onPlaylist: true,
-  listeners: 65
+  listeners: 65,
+  weight: false
 }, {
   id: 69,
   name: 'Major Parkinson',
@@ -561,7 +630,8 @@ export const ARTISTS = [{
   fbId: 'majorparkinson',
   status: true,
   onPlaylist: true,
-  listeners: 11819
+  listeners: 11819,
+  weight: false
 }, {
   id: 70,
   name: 'Kornmo',
@@ -569,7 +639,8 @@ export const ARTISTS = [{
   fbId: 'ildogvann',
   status: true,
   onPlaylist: true,
-  listeners: 4
+  listeners: 4,
+  weight: false
 }, {
   id: 71,
   name: 'Needlepoint',
@@ -577,7 +648,8 @@ export const ARTISTS = [{
   fbId: 'needlepoint.official',
   status: true,
   onPlaylist: true,
-  listeners: 277
+  listeners: 277,
+  weight: false
 }, {
   id: 72,
   name: 'Holon',
@@ -585,7 +657,8 @@ export const ARTISTS = [{
   fbId: 'holon.official',
   status: true,
   onPlaylist: true,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }, {
   id: 73,
   name: 'Kambodsja',
@@ -593,7 +666,8 @@ export const ARTISTS = [{
   fbId: 'kambodsja',
   status: true,
   onPlaylist: true,
-  listeners: 80
+  listeners: 80,
+  weight: false
 }, {
   id: 74,
   name: 'Lucifer Was',
@@ -601,7 +675,8 @@ export const ARTISTS = [{
   fbId: 'Lucifer-Was-357893044376618',
   status: true,
   onPlaylist: true,
-  listeners: 265
+  listeners: 265,
+  weight: false
 }, {
   id: 75,
   name: 'Matterhorn',
@@ -609,7 +684,8 @@ export const ARTISTS = [{
   fbId: 'Matterhorn72Music',
   status: true,
   onPlaylist: true,
-  listeners: 20
+  listeners: 20,
+  weight: false
 }, {
   id: 76,
   name: 'Rhys Marsh',
@@ -617,7 +693,8 @@ export const ARTISTS = [{
   fbId: 'rhysmarshmusic',
   status: true,
   onPlaylist: true,
-  listeners: 14
+  listeners: 14,
+  weight: false
 }, {
   id: 77,
   // tslint:disable-next-line:quotemark
@@ -626,7 +703,8 @@ export const ARTISTS = [{
   fbId: 'NowWeveGotMembers',
   status: true,
   onPlaylist: true,
-  listeners: 39
+  listeners: 39,
+  weight: false
 }, {
   id: 78,
   name: 'Shamblemaths',
@@ -634,7 +712,8 @@ export const ARTISTS = [{
   fbId: 'shamblemaths',
   status: true,
   onPlaylist: true,
-  listeners: 74
+  listeners: 74,
+  weight: false
 }, {
   id: 79,
   name: 'Terramater',
@@ -642,7 +721,8 @@ export const ARTISTS = [{
   fbId: 'Terramater-203111543040208',
   status: true,
   onPlaylist: true,
-  listeners: 20
+  listeners: 20,
+  weight: false
 }, {
   id: 80,
   name: 'Thule',
@@ -650,7 +730,8 @@ export const ARTISTS = [{
   fbId: 'Thule-139490042768792',
   status: true,
   onPlaylist: true,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }, {
   id: 81,
   name: 'The Opium Cartel',
@@ -658,7 +739,8 @@ export const ARTISTS = [{
   fbId: 'theopiumcartel',
   status: true,
   onPlaylist: true,
-  listeners: 51
+  listeners: 51,
+  weight: false
 }, {
   id: 82,
   name: 'Professor Tip Top',
@@ -666,7 +748,8 @@ export const ARTISTS = [{
   fbId: 'Professor-Tip-Top-282706708456217',
   status: true,
   onPlaylist: true,
-  listeners: 32
+  listeners: 32,
+  weight: false
 }, {
   id: 83,
   name: 'Alwanzatar',
@@ -674,7 +757,8 @@ export const ARTISTS = [{
   fbId: 'alwanzatar',
   status: true,
   onPlaylist: false,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }, {
   id: 84,
   name: 'Andre Drage Group',
@@ -682,7 +766,8 @@ export const ARTISTS = [{
   fbId: 'andredragegroup',
   status: true,
   onPlaylist: false,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }, {
   id: 85,
   name: 'Clarion Call',
@@ -690,7 +775,8 @@ export const ARTISTS = [{
   fbId: 'prissnus',
   status: true,
   onPlaylist: false,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }, {
   id: 86,
   name: 'Dimension Act',
@@ -698,7 +784,8 @@ export const ARTISTS = [{
   fbId: 'DimensionActOfficial',
   status: true,
   onPlaylist: false,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }, {
   id: 87,
   name: 'Drom',
@@ -706,7 +793,8 @@ export const ARTISTS = [{
   fbId: '',
   status: true,
   onPlaylist: false,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }, {
   id: 88,
   name: 'El Doom & The Born Electric',
@@ -714,7 +802,8 @@ export const ARTISTS = [{
   fbId: 'eldoomandthebornelectric',
   status: true,
   onPlaylist: false,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }, {
   id: 89,
   name: 'Finn Arild',
@@ -722,7 +811,8 @@ export const ARTISTS = [{
   fbId: 'Finn-Arild-40384025082',
   status: true,
   onPlaylist: false,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }, {
   id: 90,
   name: 'Fraction distraction',
@@ -730,7 +820,8 @@ export const ARTISTS = [{
   fbId: 'fractiondistraction',
   status: true,
   onPlaylist: false,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }, {
   id: 91,
   name: 'Gargamel',
@@ -738,7 +829,8 @@ export const ARTISTS = [{
   fbId: '',
   status: true,
   onPlaylist: false,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }, {
   id: 92,
   name: 'I Lit the Sun',
@@ -746,7 +838,8 @@ export const ARTISTS = [{
   fbId: 'ILitTheSun',
   status: true,
   onPlaylist: false,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }, {
   id: 93,
   name: 'Ingelrii',
@@ -754,7 +847,8 @@ export const ARTISTS = [{
   fbId: 'ingelrii',
   status: true,
   onPlaylist: false,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }, {
   id: 94,
   name: 'Jordsjø',
@@ -762,7 +856,8 @@ export const ARTISTS = [{
   fbId: 'jordsjoe',
   status: true,
   onPlaylist: false,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }, {
   id: 95,
   name: 'Madder Mortem',
@@ -770,7 +865,8 @@ export const ARTISTS = [{
   fbId: 'mmortem',
   status: true,
   onPlaylist: false,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }, {
   id: 96,
   name: 'Meer',
@@ -778,7 +874,8 @@ export const ARTISTS = [{
   fbId: 'MEERmusikk',
   status: true,
   onPlaylist: false,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }, {
   id: 97,
   name: 'Metrognom',
@@ -786,7 +883,8 @@ export const ARTISTS = [{
   fbId: 'MetroGnoM-38581426512',
   status: false,
   onPlaylist: false,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }, {
   id: 98,
   name: 'Nan Madol',
@@ -794,7 +892,8 @@ export const ARTISTS = [{
   fbId: 'nanmadolmusic',
   status: true,
   onPlaylist: false,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }, {
   id: 99,
   name: 'Permian Incident',
@@ -802,7 +901,8 @@ export const ARTISTS = [{
   fbId: 'PermianIncident',
   status: true,
   onPlaylist: false,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }, {
   id: 100,
   name: 'Pictorial Wand',
@@ -810,7 +910,8 @@ export const ARTISTS = [{
   fbId: '',
   status: false,
   onPlaylist: false,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }, {
   id: 100,
   name: 'Ring Van Möbius',
@@ -818,7 +919,8 @@ export const ARTISTS = [{
   fbId: 'RING-VAN-M%C3%96BIUS-1403939953205730',
   status: true,
   onPlaylist: false,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }, {
   id: 101,
   name: 'Sot',
@@ -826,7 +928,8 @@ export const ARTISTS = [{
   fbId: 'saltoftusj',
   status: true,
   onPlaylist: false,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }, {
   id: 102,
   name: 'Spurv',
@@ -834,7 +937,8 @@ export const ARTISTS = [{
   fbId: 'Spurvinnen',
   status: true,
   onPlaylist: false,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }, {
   id: 103,
   name: 'Swifan Eolh',
@@ -842,7 +946,8 @@ export const ARTISTS = [{
   fbId: 'mudrasiddhi',
   status: true,
   onPlaylist: false,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }, {
   id: 104,
   name: 'The Chronicles of Father Robin',
@@ -850,7 +955,8 @@ export const ARTISTS = [{
   fbId: 'The-Chronicles-of-Father-Robin-109306549137345',
   status: true,
   onPlaylist: false,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }, {
   id: 105,
   name: 'Ugler i Mosen',
@@ -858,7 +964,8 @@ export const ARTISTS = [{
   fbId: 'uglerimosen',
   status: true,
   onPlaylist: false,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }, {
   id: 106,
   name: 'Undertakers Circus',
@@ -866,7 +973,8 @@ export const ARTISTS = [{
   fbId: '',
   status: true,
   onPlaylist: false,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }, {
   id: 107,
   name: 'Visekongene',
@@ -874,7 +982,8 @@ export const ARTISTS = [{
   fbId: '',
   status: true,
   onPlaylist: false,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }, {
   id: 108,
   name: 'When Mary',
@@ -882,7 +991,8 @@ export const ARTISTS = [{
   fbId: 'whenmary',
   status: true,
   onPlaylist: false,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }, {
   id: 109,
   name: 'Withem',
@@ -890,5 +1000,6 @@ export const ARTISTS = [{
   fbId: '',
   status: true,
   onPlaylist: false,
-  listeners: 0
+  listeners: 0,
+  weight: false
 }];

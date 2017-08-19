@@ -56,14 +56,15 @@
         <div class="item item-2 band-name on-facebook">
           <a [href]="'https://www.facebook.com/' + band.fbId | safe" title="{{band.name}}" target="_blank">
             {{band.name}}
-          </a>
+          </a>&nbsp;&nbsp;<span *ngIf="band.weight === true; then bandIsHeavy">...</span>
         </div>
       </ng-template>
       <ng-template #bandIsNotOnFacebook>
         <div class="item item-2 band-name">
-          {{band.name}}
+          {{band.name}}&nbsp;&nbsp;<span *ngIf="band.weight === true; then bandIsHeavy">...</span>
         </div>
       </ng-template>
+      <ng-template #bandIsHeavy><span class="band-weight heavy" title="{{band.name}} is heavy! :)">&spades;</span></ng-template>
       <div *ngIf="band.onPlaylist === true; then bandIsOnPlaylist; else bandIsNotOnPlaylist">...</div>
       <ng-template #bandIsOnPlaylist><div class="item item-3 centered band-on-playlist yes">&#x2714;</div></ng-template>
       <ng-template #bandIsNotOnPlaylist><div class="item item-3 centered band-on-playlist no">&#x2718;</div></ng-template>
