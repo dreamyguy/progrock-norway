@@ -695,7 +695,7 @@ export const ARTISTS = [{
   id: 86,
   name: 'Dimension Act',
   artistId: '4l67ZT0Z9ZJzP0yn1JWIWM',
-  fbId: 'dimensionactprofile',
+  fbId: 'DimensionActOfficial',
   status: true,
   onPlaylist: false,
   listeners: 0
