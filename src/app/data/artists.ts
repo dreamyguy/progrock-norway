@@ -805,6 +805,14 @@ export const ARTISTS = [{
   listeners: 0
 }, {
   id: 100,
+  name: 'Pictorial Wand',
+  artistId: '',
+  fbId: '',
+  status: false,
+  onPlaylist: false,
+  listeners: 0
+}, {
+  id: 100,
   name: 'Ring Van Möbius',
   artistId: '',
   fbId: 'RING-VAN-M%C3%96BIUS-1403939953205730',
