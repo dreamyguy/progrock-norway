@@ -752,6 +752,15 @@ export const ARTISTS = [{
   weight: false
 }, {
   id: 83,
+  name: 'After Eternity',
+  artistId: '5fZRw0BjSjEvV0hN09SImt',
+  fbId: 'fterEternity',
+  status: true,
+  onPlaylist: false,
+  listeners: 28,
+  weight: true
+}, {
+  id: 84,
   name: 'Alwanzatar',
   artistId: '',
   fbId: 'alwanzatar',
@@ -760,7 +769,7 @@ export const ARTISTS = [{
   listeners: 0,
   weight: false
 }, {
-  id: 84,
+  id: 85,
   name: 'Andre Drage Group',
   artistId: '',
   fbId: 'andredragegroup',
@@ -769,7 +778,34 @@ export const ARTISTS = [{
   listeners: 0,
   weight: false
 }, {
-  id: 85,
+  id: 86,
+  name: 'Arcturus',
+  artistId: '0UGvFl1tJ49Co99gaXZH9Z',
+  fbId: 'arcturusnorway',
+  status: true,
+  onPlaylist: false,
+  listeners: 19227,
+  weight: true
+}, {
+  id: 87,
+  name: 'Atrox',
+  artistId: '5nEOvukYxvAo2jXoslesJf',
+  fbId: 'atrox.no',
+  status: true,
+  onPlaylist: false,
+  listeners: 195,
+  weight: true
+}, {
+  id: 88,
+  name: 'Circus Maximus',
+  artistId: '1pxKRI6EFLtWmAiya9Pj1S',
+  fbId: 'circusmaximusband',
+  status: true,
+  onPlaylist: false,
+  listeners: 24856,
+  weight: true
+}, {
+  id: 89,
   name: 'Clarion Call',
   artistId: '74MQMIFwm6r6hd5SrknBmP',
   fbId: 'prissnus',
@@ -778,7 +814,16 @@ export const ARTISTS = [{
   listeners: 0,
   weight: false
 }, {
-  id: 86,
+  id: 90,
+  name: 'Course of Fate',
+  artistId: '1IfMyipoZxjAE5fdJKlIrc',
+  fbId: 'courseoffate',
+  status: true,
+  onPlaylist: false,
+  listeners: 11,
+  weight: true
+}, {
+  id: 91,
   name: 'Dimension Act',
   artistId: '4l67ZT0Z9ZJzP0yn1JWIWM',
   fbId: 'DimensionActOfficial',
@@ -787,7 +832,7 @@ export const ARTISTS = [{
   listeners: 0,
   weight: false
 }, {
-  id: 87,
+  id: 92,
   name: 'Drom',
   artistId: '5FqeNaXzMckcgijOv4Nxno',
   fbId: '',
@@ -796,7 +841,16 @@ export const ARTISTS = [{
   listeners: 0,
   weight: false
 }, {
-  id: 88,
+  id: 93,
+  name: 'Dødheimsgard',
+  artistId: '4EzPNgGmh8l2xPoTEgivT8',
+  fbId: 'DODHEIMSGARD',
+  status: true,
+  onPlaylist: false,
+  listeners: 2340,
+  weight: true
+}, {
+  id: 94,
   name: 'El Doom & The Born Electric',
   artistId: '6Pe45g7YB8yDSWoryqJ5Qc',
   fbId: 'eldoomandthebornelectric',
@@ -805,7 +859,16 @@ export const ARTISTS = [{
   listeners: 0,
   weight: false
 }, {
-  id: 89,
+  id: 95,
+  name: 'Enslaved',
+  artistId: '2HmtB6wVRRi3z0JwZHtkiD',
+  fbId: 'enslaved',
+  status: true,
+  onPlaylist: false,
+  listeners: 55691,
+  weight: true
+}, {
+  id: 96,
   name: 'Finn Arild',
   artistId: '0UxA4foK5go6s7lRCLX3JS',
   fbId: 'Finn-Arild-40384025082',
@@ -814,7 +877,7 @@ export const ARTISTS = [{
   listeners: 0,
   weight: false
 }, {
-  id: 90,
+  id: 97,
   name: 'Fraction distraction',
   artistId: '',
   fbId: 'fractiondistraction',
@@ -823,7 +886,7 @@ export const ARTISTS = [{
   listeners: 0,
   weight: false
 }, {
-  id: 91,
+  id: 98,
   name: 'Gargamel',
   artistId: '6f8MRWxtftR4Ococby81Jn',
   fbId: '',
@@ -832,7 +895,7 @@ export const ARTISTS = [{
   listeners: 0,
   weight: false
 }, {
-  id: 92,
+  id: 99,
   name: 'I Lit the Sun',
   artistId: '4TkIZuVIFntFT5aFABE6pi',
   fbId: 'ILitTheSun',
@@ -841,7 +904,34 @@ export const ARTISTS = [{
   listeners: 0,
   weight: false
 }, {
-  id: 93,
+  id: 100,
+  name: 'Ihsahn',
+  artistId: '2E1jLcUfqd9w2XtybNB2Za',
+  fbId: 'ihsahnmusic',
+  status: true,
+  onPlaylist: false,
+  listeners: 30769,
+  weight: true
+}, {
+  id: 101,
+  name: 'In The Woods...',
+  artistId: '41E3QF87uVy2sVvX2TobhI',
+  fbId: 'inthewoodsomnio',
+  status: true,
+  onPlaylist: false,
+  listeners: 4489,
+  weight: true
+}, {
+  id: 102,
+  name: 'In Vain',
+  artistId: '5IL4ovt4wBAp3EBbm3zqlI',
+  fbId: 'InVainOfficial',
+  status: true,
+  onPlaylist: false,
+  listeners: 7566,
+  weight: true
+}, {
+  id: 103,
   name: 'Ingelrii',
   artistId: '',
   fbId: 'ingelrii',
@@ -850,7 +940,7 @@ export const ARTISTS = [{
   listeners: 0,
   weight: false
 }, {
-  id: 94,
+  id: 104,
   name: 'Jordsjø',
   artistId: '',
   fbId: 'jordsjoe',
@@ -859,7 +949,7 @@ export const ARTISTS = [{
   listeners: 0,
   weight: false
 }, {
-  id: 95,
+  id: 105,
   name: 'Madder Mortem',
   artistId: '3UifQ31wx5RQTJXgmqzhYF',
   fbId: 'mmortem',
@@ -868,7 +958,16 @@ export const ARTISTS = [{
   listeners: 0,
   weight: false
 }, {
-  id: 96,
+  id: 106,
+  name: 'Manitou',
+  artistId: '6QVXbdC7foov3Y2jtMmRUM',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 205,
+  weight: true
+}, {
+  id: 107,
   name: 'Meer',
   artistId: '4pAX6VBnbccF9uVcb9EGiq',
   fbId: 'MEERmusikk',
@@ -877,7 +976,7 @@ export const ARTISTS = [{
   listeners: 0,
   weight: false
 }, {
-  id: 97,
+  id: 108,
   name: 'Metrognom',
   artistId: '',
   fbId: 'MetroGnoM-38581426512',
@@ -886,7 +985,7 @@ export const ARTISTS = [{
   listeners: 0,
   weight: false
 }, {
-  id: 98,
+  id: 109,
   name: 'Nan Madol',
   artistId: '5UqW0dPoQQvMLj9Uc0mTMI',
   fbId: 'nanmadolmusic',
@@ -895,16 +994,26 @@ export const ARTISTS = [{
   listeners: 0,
   weight: false
 }, {
-  id: 99,
+  id: 110,
+  // tslint:disable-next-line:quotemark
+  name: "Pagan's Mind",
+  artistId: '0dvzEeVLv8VDQ0Rv36PZis',
+  fbId: 'pagansmind',
+  status: true,
+  onPlaylist: false,
+  listeners: 18881,
+  weight: true
+}, {
+  id: 111,
   name: 'Permian Incident',
   artistId: '4Y9tlDA9OEkpv2eP212JiC',
   fbId: 'PermianIncident',
   status: true,
   onPlaylist: false,
   listeners: 0,
-  weight: false
+  weight: true
 }, {
-  id: 100,
+  id: 112,
   name: 'Pictorial Wand',
   artistId: '',
   fbId: '',
@@ -913,7 +1022,16 @@ export const ARTISTS = [{
   listeners: 0,
   weight: false
 }, {
-  id: 100,
+  id: 113,
+  name: 'Ram-Zet',
+  artistId: '41x3tK4pmcp109A09rYtxj',
+  fbId: 'Ram-Zet-310331855671437/?ref=br_rs',
+  status: true,
+  onPlaylist: false,
+  listeners: 404,
+  weight: true
+}, {
+  id: 114,
   name: 'Ring Van Möbius',
   artistId: '',
   fbId: 'RING-VAN-M%C3%96BIUS-1403939953205730',
@@ -922,7 +1040,16 @@ export const ARTISTS = [{
   listeners: 0,
   weight: false
 }, {
-  id: 101,
+  id: 115,
+  name: 'Solefald',
+  artistId: '1jBJHkyQLO6Ga1Dx3W6nG3',
+  fbId: 'Solefald',
+  status: true,
+  onPlaylist: false,
+  listeners: 2108,
+  weight: true
+}, {
+  id: 116,
   name: 'Sot',
   artistId: '24qXrXrfdFHusWl05QrsjX',
   fbId: 'saltoftusj',
@@ -931,7 +1058,7 @@ export const ARTISTS = [{
   listeners: 0,
   weight: false
 }, {
-  id: 102,
+  id: 117,
   name: 'Spurv',
   artistId: '4V5cDBPMMnbdefVmdMLReN',
   fbId: 'Spurvinnen',
@@ -940,7 +1067,7 @@ export const ARTISTS = [{
   listeners: 0,
   weight: false
 }, {
-  id: 103,
+  id: 118,
   name: 'Swifan Eolh',
   artistId: '',
   fbId: 'mudrasiddhi',
@@ -949,7 +1076,7 @@ export const ARTISTS = [{
   listeners: 0,
   weight: false
 }, {
-  id: 104,
+  id: 119,
   name: 'The Chronicles of Father Robin',
   artistId: '',
   fbId: 'The-Chronicles-of-Father-Robin-109306549137345',
@@ -958,7 +1085,7 @@ export const ARTISTS = [{
   listeners: 0,
   weight: false
 }, {
-  id: 105,
+  id: 120,
   name: 'Ugler i Mosen',
   artistId: '2bJ59tZ8OgPnCccVgPou81',
   fbId: 'uglerimosen',
@@ -967,7 +1094,7 @@ export const ARTISTS = [{
   listeners: 0,
   weight: false
 }, {
-  id: 106,
+  id: 121,
   name: 'Undertakers Circus',
   artistId: '7KMU8yxLwQmEGKLt2DeHxj',
   fbId: '',
@@ -976,7 +1103,25 @@ export const ARTISTS = [{
   listeners: 0,
   weight: false
 }, {
-  id: 107,
+  id: 122,
+  name: 'Ved Buens Ende',
+  artistId: '',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 0,
+  weight: true
+}, {
+  id: 123,
+  name: 'Virus',
+  artistId: '2hj9reFCa9oYp8CzpB5Y0y',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 899,
+  weight: true
+}, {
+  id: 124,
   name: 'Visekongene',
   artistId: '6ji2OGhjpP1gdRgu5m5BKt',
   fbId: '',
@@ -985,7 +1130,7 @@ export const ARTISTS = [{
   listeners: 0,
   weight: false
 }, {
-  id: 108,
+  id: 125,
   name: 'When Mary',
   artistId: '',
   fbId: 'whenmary',
@@ -994,12 +1139,21 @@ export const ARTISTS = [{
   listeners: 0,
   weight: false
 }, {
-  id: 109,
+  id: 126,
+  name: 'Winds',
+  artistId: '6IiW5gzieiekaPLzGRCmUD',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 445,
+  weight: true
+}, {
+  id: 127,
   name: 'Withem',
   artistId: '72PR9PiHOU7z5aWAjFb0UF',
   fbId: '',
   status: true,
   onPlaylist: false,
   listeners: 0,
-  weight: false
+  weight: true
 }];
