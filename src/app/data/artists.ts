@@ -671,7 +671,7 @@ export const ARTISTS = [{
 }, {
   id: 74,
   name: 'Lucifer Was',
-  artistId: '1LrUu1hZUl27WJkDEqi3ES',
+  artistId: '7zXBD7QyUUqz6qiqJh2gK9',
   fbId: 'Lucifer-Was-357893044376618',
   status: true,
   onPlaylist: true,
