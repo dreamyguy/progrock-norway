@@ -1,0 +1,583 @@
+export interface Artists {
+  id: number;
+  name: string;
+  artistId: string;
+  fbId: string;
+  status: boolean;
+  onPlaylist: boolean;
+  listeners: number;
+  weight: boolean;
+}
+export const ARTISTS = [{
+  id: 1,
+  name: 'Aktuala',
+  artistId: '3aaSEjMUNeNJRU2MgkXldn',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 171,
+  weight: false
+}, {
+  id: 2,
+  name: 'Alan Sorrenti',
+  artistId: '7sCYC6bDTexE400qiLy4oq',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 55176,
+  weight: false
+}, {
+  id: 3,
+  name: 'Alphataurus',
+  artistId: '6mFPT1M2JWpuoSGSCQCpHX',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 4702,
+  weight: false
+}, {
+  id: 4,
+  name: 'Area',
+  artistId: '6o2PxnpsrQ352kwYlEwjvR',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 9704,
+  weight: false
+}, {
+  id: 5,
+  name: 'Banco Del Mutuo Soccorso',
+  artistId: '4RuYtHjAKBufQRqBUMiOfK',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 11477,
+  weight: false
+}, {
+  id: 6,
+  // tslint:disable-next-line:quotemark
+  name: "Biglietto Per L'Inferno",
+  artistId: '32iWqX9jgLPJBZBXNEhxtR',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 708,
+  weight: false
+}, {
+  id: 7,
+  name: 'Campo di Marte',
+  artistId: '2C9ukRrDm6tGKGU4iSBxAe',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 208,
+  weight: false
+}, {
+  id: 8,
+  name: 'Cervello',
+  artistId: '6TiLnR2ZMkI0xY7EU2tODU',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 25598,
+  weight: false
+}, {
+  id: 9,
+  name: 'De De Lind',
+  artistId: '0IQrFbNvbs4LxhsbJMzsuv',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 126,
+  weight: false
+}, {
+  id: 10,
+  name: 'Delirium',
+  artistId: '70CgtFRYY0VmzL1lvGVtCI',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 4162,
+  weight: false
+}, {
+  id: 11,
+  name: 'Flashmen',
+  artistId: '2gf8qdsWIYIe64VW5QGloO',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 47,
+  weight: false
+}, {
+  id: 12,
+  name: 'Franco Battiato',
+  artistId: '4lianjyuR1tqf6oUX8kjrZ',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 329495,
+  weight: false
+}, {
+  id: 13,
+  name: 'Garybaldi',
+  artistId: '05znU9neXsZXc5SXoABAa3',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 327,
+  weight: false
+}, {
+  id: 14,
+  name: 'Genco Puro &amp; Co',
+  artistId: '6LQmzEmd4QAVR65gYZs2T8',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 6,
+  weight: false
+}, {
+  id: 15,
+  name: 'Il Balletto di Bronzo',
+  artistId: '1TU5crhljL140mCyCjytTP',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 1112,
+  weight: false
+}, {
+  id: 16,
+  name: 'Il Castillo di Atlante',
+  artistId: '7s2hcvJW6Thm3wvCLIIYYu',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 5,
+  weight: false
+}, {
+  id: 17,
+  name: 'Il Paese Dei Balocchi',
+  artistId: '1aJ9HM9SusVxdpABwMj5uz',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 138,
+  weight: false
+}, {
+  id: 18,
+  name: 'Jumbo',
+  artistId: '0Utf4AzKR2Su55dmt80Sa5',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 56,
+  weight: false
+}, {
+  id: 19,
+  name: 'Latte E Miele',
+  artistId: '4di9TLoyXVRLmXm79GOvxQ',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 329,
+  weight: false
+}, {
+  id: 20,
+  name: 'Le Orme',
+  artistId: '45Utoxop3UFq0Qg9YFLhx0',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 11150,
+  weight: false
+}, {
+  id: 21,
+  name: 'Locanda delle fate',
+  artistId: '3Rbtl5QGOHMtfQOJZVTy3h',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 929,
+  weight: false
+}, {
+  id: 22,
+  name: 'Maxophone',
+  artistId: '6p9KeMVhd7SS0CYh9l44bq',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 739,
+  weight: false
+}, {
+  id: 23,
+  name: 'Metamorfosi',
+  artistId: '1aUtXVpyuSdXgoNvyYn0QB',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 397,
+  weight: false
+}, {
+  id: 24,
+  name: 'Museo Rosenbach',
+  artistId: '4RWamjGtVScGN2kfuoOm7V',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 977,
+  weight: false
+}, {
+  id: 25,
+  name: 'New Trolls',
+  artistId: '5RN8L3RHQZ87m7gNWUyFmu',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 16471,
+  weight: false
+}, {
+  id: 26,
+  name: 'Nuova Era',
+  artistId: '5hOmcoRWMVE406SxFSivYX',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 127,
+  weight: false
+}, {
+  id: 27,
+  name: 'Nuova Idea',
+  artistId: '2CZFHxqjmsuWigC6gvpm32',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 107,
+  weight: false
+}, {
+  id: 28,
+  name: 'Opus Avantra',
+  artistId: '0hxOAoLSOTqwXNLvJ5tEYZ',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 146,
+  weight: false
+}, {
+  id: 29,
+  name: 'Osanna',
+  artistId: '3lX6ZPxT3OWfRN9Hj32D6h',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 999,
+  weight: false
+}, {
+  id: 30,
+  name: 'P.F.M.',
+  artistId: '69JBLod15WPsmZioUkwA4r',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 1216,
+  weight: false
+}, {
+  id: 31,
+  name: 'Panna Fredda',
+  artistId: '1NuR3hwHasLulniD8tH4hQ',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 112,
+  weight: false
+}, {
+  id: 32,
+  name: 'Pierrot Lunaire',
+  artistId: '4t7Lq2Y9YlZec4uYfGk9FK',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 114,
+  weight: false
+}, {
+  id: 33,
+  name: 'Premiata Forneria Marconi',
+  artistId: '1MD5pgVzlusqGyuSTcTxvu',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 31208,
+  weight: false
+}, {
+  id: 34,
+  name: 'Quella Vecchia Locanda',
+  artistId: '0VrvpayEoQOjiRkZQcLX2R',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 572,
+  weight: false
+}, {
+  id: 35,
+  name: 'Semiramis',
+  artistId: '2gGJpvjWyhAdVLiBdjQUrN',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 493,
+  weight: false
+}, {
+  id: 36,
+  name: 'Tito Schipa Jr.',
+  artistId: '1MhtQPaDoN8855SmyUOE5M',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 118,
+  weight: false
+}, {
+  id: 37,
+  name: 'Triade',
+  artistId: '5S0wypfk6u1adOQddPHueo',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 107,
+  weight: false
+}, {
+  id: 38,
+  name: 'The Trip',
+  artistId: '3VJvpCexmCxkisK0snBpnH',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 492,
+  weight: false
+}, {
+  id: 39,
+  name: 'Perigeo',
+  artistId: '0UB7tnXqRLUWF9dyktuA6e',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 800,
+  weight: false
+}, {
+  id: 40,
+  name: 'Arti &amp; Mestieri',
+  artistId: '4kp3WqauG2CfMO6ZGXFXbh',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 380,
+  weight: false
+}, {
+  id: 41,
+  name: 'Acqua Fragile',
+  artistId: '3NjMlHgOao6SwYOdLQLwTt',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 1391,
+  weight: false
+}, {
+  id: 42,
+  name: 'Alusa Fallax',
+  artistId: '1xGMoZCyIemfR1hoZ9dQQf',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 170,
+  weight: false
+}, {
+  id: 43,
+  name: 'Apoteosi',
+  artistId: '4Yhj269DWQu0R3jm3AHZYC',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 131,
+  weight: false
+}, {
+  id: 44,
+  name: 'Napoli Centrale',
+  artistId: '4kNBFzbIZQn9Id0P9RWc5t',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 2596,
+  weight: false
+}, {
+  id: 45,
+  name: 'Buon Vecchio Charlie',
+  artistId: '2nGNJ5OnGMAJ9ZwHu10mQJ',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 242,
+  weight: false
+}, {
+  id: 46,
+  name: 'La Maschera Di Cera',
+  artistId: '1tYd74WXaoUZpZdoeGcgvZ',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 194,
+  weight: false
+}, {
+  id: 47,
+  name: 'Il Bacio della Medusa',
+  artistId: '6Sd5dG0VUpMZd7eY8yZc9R',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 177,
+  weight: false
+}, {
+  id: 48,
+  name: 'Blocco Mentale',
+  artistId: '5KWEclJNzCZ45JSJAUzbxE',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 131,
+  weight: false
+}, {
+  id: 49,
+  name: 'Formula 3',
+  artistId: '6vtP29nDg5L1Y8aSJScPRY',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 33546,
+  weight: false
+}, {
+  id: 50,
+  // tslint:disable-next-line:quotemark
+  name: "Fili D'Erba",
+  artistId: '2hgUnGumSJqNOeSoUr9H9K',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 24,
+  weight: false
+}, {
+  id: 51,
+  name: 'Il tempio delle clessidre',
+  artistId: '3jHpRMOpIbYNdqMQTMxNZg',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 279,
+  weight: false
+}, {
+  id: 52,
+  name: 'Albero Motore',
+  artistId: '29021f8Nq0hyypJoJvrxfL',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 44,
+  weight: false
+}, {
+  id: 53,
+  name: 'Capsicum Red',
+  artistId: '4hYYJjx2fRzwdry8RW0IfZ',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 52,
+  weight: false
+}, {
+  id: 54,
+  // tslint:disable-next-line:quotemark
+  name: "Gruppo d'Alternativa",
+  artistId: '4tHk3a6MiruL9uC55O58PO',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 14,
+  weight: false
+}, {
+  id: 55,
+  name: 'Albergo Intergalattico Spaziale',
+  artistId: '53pa2DVrLRlnpxkYaNt5jD',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 16,
+  weight: false
+}, {
+  id: 56,
+  name: 'La Seconda Genesi',
+  artistId: '5zRiA3049iGaSKsjIm6RdJ',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 17,
+  weight: false
+}, {
+  id: 57,
+  name: '5° Grado Mercalli',
+  artistId: '2m3GHtyuB7j5qUoOE047K3',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 4,
+  weight: false
+}, {
+  id: 58,
+  name: 'I Teoremi',
+  artistId: '0WuaFfUZS3Onus3FoN5iFc',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 49,
+  weight: false
+}, {
+  id: 59,
+  name: 'Errata Corrige',
+  artistId: '0z70fTa5VCWRZZEUhP4Sv8',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 35,
+  weight: false
+}, {
+  id: 60,
+  name: 'Officina Meccanica',
+  artistId: '0q7ftSuEwaqPMGCvdvj4mn',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 47,
+  weight: false
+}, {
+  id: 61,
+  // tslint:disable-next-line:quotemark
+  name: "Gianni D'Errico",
+  artistId: '4sHNUFmdN9EqXqWZbJE6qe',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 18,
+  weight: false
+}, {
+  id: 62,
+  name: 'Emilio Locurcio',
+  artistId: '7frzvK6KrIHRffpyz37q6M',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 75,
+  weight: false
+}, {
+  id: 63,
+  // tslint:disable-next-line:quotemark
+  name: "Il Cerchio D'Oro",
+  artistId: '5t6bchd4c3ZmEcBHwcMI2J',
+  fbId: '',
+  status: true,
+  onPlaylist: false,
+  listeners: 53,
+  weight: false
+}];
