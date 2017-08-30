@@ -1,38 +1,5 @@
-$occre-darkest: #3d3b33;
-$occre-dark: #615e4b;
-$occre-middle: #8c886d; // default
-$occre-light: #BAB492;
-$occre-lighter: #d9d4b9;
-$tick-green: green;
-$tick-red: #af0000;
+@import 'app.component-variables';
 
-.heading {
-  margin-top: 0;
-}
-.heading-1 {
-  font-size: 40px;
-}
-.heading-2 {
-  font-size: 24px;
-}
-.heading-3 {
-  font-size: 18px;
-}
-.heading-4 {
-  font-size: 16px;
-}
-.heading-page {
-  margin-bottom: 15px;
-}
-.heading-page-intro {
-  color: $occre-dark;
-  margin: 0 0 10px 0;
-}
-.heading-parenthesis {
-  color: $occre-dark;
-  font-size: 15px;
-  margin-left: 5px;
-}
 .bands,
 .playlist {
   margin-bottom: 40px;
@@ -158,35 +125,6 @@ $tick-red: #af0000;
     &:-moz-placeholder { // Firefox 18-
       color: $occre-light;
       opacity: 1;
-    }
-  }
-}
-.menu {
-  display: flex;
-  justify-content: center;
-  margin: 20px 0;
-  & > :last-child {
-    margin-right: 0;
-  }
-  button {
-    font-family: 'Playball', cursive;
-    font-size: 20px !important;
-    cursor: pointer;
-    margin-right: 20px;
-    color: $occre-light;
-    background-color: $occre-darkest;
-    border: none;
-    border-radius: 5px;
-    font-size: 15px;
-    padding: 10px 20px;
-    text-shadow: 1px 1px 2px black;
-    &:focus {
-      outline: 0;
-    }
-    &.active {
-      color: $occre-darkest;
-      background-color: $occre-light;
-      text-shadow: none;
     }
   }
 }

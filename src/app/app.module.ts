@@ -11,6 +11,7 @@ export class SafePipe implements PipeTransform {
 }
 
 import { AppComponent } from './app.component';
+import { AboutComponent } from './about/about.component';
 import { ArtistPipe } from './artist.pipe';
 
 @NgModule({
@@ -20,6 +21,7 @@ import { ArtistPipe } from './artist.pipe';
   ],
   declarations: [
     AppComponent,
+    AboutComponent,
     SafePipe,
     ArtistPipe
   ],

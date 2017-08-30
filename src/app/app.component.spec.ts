@@ -3,6 +3,7 @@ import { FormsModule } from '@angular/forms';
 import { Pipe, PipeTransform, NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { AboutComponent } from './about/about.component';
 import { ArtistPipe } from './artist.pipe';
 import { SafePipe } from './app.module';
 
@@ -14,6 +15,7 @@ describe('AppComponent', () => {
       ],
       declarations: [
         AppComponent,
+        AboutComponent,
         SafePipe,
         ArtistPipe
       ],

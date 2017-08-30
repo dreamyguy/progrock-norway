@@ -1,0 +1,31 @@
+@import '../app.component-variables';
+
+.menu {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  & > :last-child {
+    margin-right: 0;
+  }
+  button {
+    font-family: 'Playball', cursive;
+    font-size: 20px !important;
+    cursor: pointer;
+    margin-right: 20px;
+    color: $occre-light;
+    background-color: $occre-darkest;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px 20px;
+    text-shadow: 1px 1px 2px black;
+    &:focus {
+      outline: 0;
+    }
+    &.active {
+      color: $occre-darkest;
+      background-color: $occre-light;
+      text-shadow: none;
+    }
+  }
+}
