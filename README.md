@@ -43,10 +43,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 #### Release History
 
-* 2017-08-31   [v1.0.6](https://github.com/dreamyguy/gitlogg/tree/v1.0.6) - [View Changes](https://github.com/dreamyguy/gitlogg/compare/v1.0.5...v1.0.6)
-* 2017-08-20   [v1.0.5](https://github.com/dreamyguy/gitlogg/tree/v1.0.5) - [View Changes](https://github.com/dreamyguy/gitlogg/compare/v1.0.4...v1.0.5)
-* 2017-08-19   [v1.0.4](https://github.com/dreamyguy/gitlogg/tree/v1.0.4) - [View Changes](https://github.com/dreamyguy/gitlogg/compare/v1.0.3...v1.0.4)
-* 2017-08-16   [v1.0.3](https://github.com/dreamyguy/gitlogg/tree/v1.0.3) - [View Changes](https://github.com/dreamyguy/gitlogg/compare/v1.0.2...v1.0.3)
-* 2017-08-15   [v1.0.2](https://github.com/dreamyguy/gitlogg/tree/v1.0.2) - [View Changes](https://github.com/dreamyguy/gitlogg/compare/v1.0.1...v1.0.2)
-* 2017-08-15   [v1.0.1](https://github.com/dreamyguy/gitlogg/tree/v1.0.1) - [View Changes](https://github.com/dreamyguy/gitlogg/compare/v1.0.0...v1.0.1)
-* 2017-08-15   [v1.0.0](https://github.com/dreamyguy/gitlogg/tree/v1.0.0)
+* 2017-08-31   [v1.0.6](https://github.com/dreamyguy/progrock-norway/tree/v1.0.6) - [View Changes](https://github.com/dreamyguy/progrock-norway/compare/v1.0.5...v1.0.6)
+* 2017-08-20   [v1.0.5](https://github.com/dreamyguy/progrock-norway/tree/v1.0.5) - [View Changes](https://github.com/dreamyguy/progrock-norway/compare/v1.0.4...v1.0.5)
+* 2017-08-19   [v1.0.4](https://github.com/dreamyguy/progrock-norway/tree/v1.0.4) - [View Changes](https://github.com/dreamyguy/progrock-norway/compare/v1.0.3...v1.0.4)
+* 2017-08-16   [v1.0.3](https://github.com/dreamyguy/progrock-norway/tree/v1.0.3) - [View Changes](https://github.com/dreamyguy/progrock-norway/compare/v1.0.2...v1.0.3)
+* 2017-08-15   [v1.0.2](https://github.com/dreamyguy/progrock-norway/tree/v1.0.2) - [View Changes](https://github.com/dreamyguy/progrock-norway/compare/v1.0.1...v1.0.2)
+* 2017-08-15   [v1.0.1](https://github.com/dreamyguy/progrock-norway/tree/v1.0.1) - [View Changes](https://github.com/dreamyguy/progrock-norway/compare/v1.0.0...v1.0.1)
+* 2017-08-15   [v1.0.0](https://github.com/dreamyguy/progrock-norway/tree/v1.0.0)
