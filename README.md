@@ -43,6 +43,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 #### Release History
 
+* 2017-08-31   [v1.0.6](https://github.com/dreamyguy/progrock-norway/tree/v1.0.7) - [View Changes](https://github.com/dreamyguy/progrock-norway/compare/v1.0.6...v1.0.7)
 * 2017-08-31   [v1.0.6](https://github.com/dreamyguy/progrock-norway/tree/v1.0.6) - [View Changes](https://github.com/dreamyguy/progrock-norway/compare/v1.0.5...v1.0.6)
 * 2017-08-20   [v1.0.5](https://github.com/dreamyguy/progrock-norway/tree/v1.0.5) - [View Changes](https://github.com/dreamyguy/progrock-norway/compare/v1.0.4...v1.0.5)
 * 2017-08-19   [v1.0.4](https://github.com/dreamyguy/progrock-norway/tree/v1.0.4) - [View Changes](https://github.com/dreamyguy/progrock-norway/compare/v1.0.3...v1.0.4)
