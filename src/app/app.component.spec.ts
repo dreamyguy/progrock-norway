@@ -4,6 +4,7 @@ import { Pipe, PipeTransform, NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
+import { ArtistsComponent } from './artists/artists.component';
 import { PlaylistComponent } from './playlist/playlist.component';
 import { ArtistPipe } from './artist.pipe';
 import { SafePipe } from './app.module';
@@ -17,6 +18,7 @@ describe('AppComponent', () => {
       declarations: [
         AppComponent,
         AboutComponent,
+        ArtistsComponent,
         PlaylistComponent,
         SafePipe,
         ArtistPipe

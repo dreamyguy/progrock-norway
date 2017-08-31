@@ -12,6 +12,7 @@ export class SafePipe implements PipeTransform {
 
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
+import { ArtistsComponent } from './artists/artists.component';
 import { PlaylistComponent } from './playlist/playlist.component';
 import { ArtistPipe } from './artist.pipe';
 
@@ -23,6 +24,7 @@ import { ArtistPipe } from './artist.pipe';
   declarations: [
     AppComponent,
     AboutComponent,
+    ArtistsComponent,
     PlaylistComponent,
     SafePipe,
     ArtistPipe

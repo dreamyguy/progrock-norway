@@ -4,85 +4,9 @@
 .playlist {
   margin-bottom: 40px;
 }
-.grid {
-  padding: 10px 0;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-areas:
-    "i n n n n n n n p p a a"
-    "s s s s s s s s s s s s"
-    "f f f f f f f f f f f f";
-  @media (min-width: 500px) and (max-width: 767px) {
-    grid-template-areas:
-      "i n n n n n n n p p a a"
-      "s s s s s s f f f f f f"
-      "s s s s s s f f f f f f";
-  }
-  @media (min-width: 768px) and (max-width: 879px) {
-    grid-template-areas:
-      "i n n p a s s s f f f f"
-      "i n n p a s s s f f f f"
-      "i n n p a s s s f f f f";
-  }
-  @media (min-width: 880px) {
-    grid-template-areas:
-      "i n n n p a s s s f f f"
-      "i n n n p a s s s f f f"
-      "i n n n p a s s s f f f";
-  }
-  @media (min-width: 768px) {
-    padding: 0;
-    min-height: 70px;
-  }
-  .item {
-    align-self: center;
-  }
-}
 .hide-below-768 {
   @media (max-width: 767px) {
     display: none;
-  }
-}
-.band {
-  &:nth-child(odd) {
-    background-color: #1a1a1a;
-  }
-}
-.band-nr {
-  grid-area: i;
-}
-.band-name {
-  grid-area: n;
-}
-.band-on-playlist {
-  grid-area: p;
-}
-.band-status {
-  grid-area: a;
-}
-.band-spotify-artist-follow {
-  grid-area: s;
-}
-.band-facebook-page {
-  grid-area: f;
-}
-.band-weight {
-  cursor: pointer;
-}
-.band-spotify-artist-follow,
-.band-facebook-page {
-  line-height: 0;
-}
-.band-facebook-page {
-  padding: 0;
-  overflow: hidden;
-  .bands-head & {
-    overflow: initial; // exception
-  }
-  .un-border {
-    margin: -1px 0 0 -1px;
-    max-width: 338px;
   }
 }
 .centered {
@@ -93,38 +17,4 @@
 }
 .no {
   color: $tick-red;
-}
-.search {
-  display: flex;
-  justify-content: center;
-  input {
-    background-color: $occre-dark;
-    color: $occre-lighter;
-    font-size: 16px;
-    padding: 10px;
-    width: 100%;
-    border: none;
-    border-radius: 5px;
-    max-width: 500px;
-    @media (min-width: 768px) {
-      max-width: 500px;
-    }
-    &:focus {
-      outline-width: 0;
-    }
-    // color the placeholder
-    &::-webkit-input-placeholder { // Chrome/Opera/Safari
-      color: $occre-light;
-    }
-    &::-moz-placeholder { // Firefox 19+
-      color: $occre-light;
-    }
-    &:-ms-input-placeholder { // IE 10+
-      color: $occre-light;
-    }
-    &:-moz-placeholder { // Firefox 18-
-      color: $occre-light;
-      opacity: 1;
-    }
-  }
 }
